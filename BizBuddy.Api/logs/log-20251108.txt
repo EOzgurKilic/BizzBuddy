@@ -777,3 +777,36 @@ FluentValidation.ValidationException: Validation failed:
    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
 2025-11-08 19:02:05.246 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatePerson - 400 null application/json; charset=utf-8 86.875ms
 2025-11-08 20:32:56.027 +03:00 [INF] Application is shutting down...
+2025-11-08 19:37:09.183 +01:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 19:37:09.230 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 19:37:09.231 +01:00 [INF] Hosting environment: Development
+2025-11-08 19:37:09.231 +01:00 [INF] Content root path: C:\Users\Yusei\RiderProjects\BizBuddy\BizBuddy.Api
+2025-11-08 19:37:50.511 +01:00 [INF] Application is shutting down...
+2025-11-08 19:38:06.192 +01:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 19:38:06.232 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 19:38:06.234 +01:00 [INF] Hosting environment: Development
+2025-11-08 19:38:06.234 +01:00 [INF] Content root path: C:\Users\Yusei\RiderProjects\BizBuddy\BizBuddy.Api
+2025-11-08 19:38:24.360 +01:00 [INF] Application is shutting down...
+2025-11-08 19:38:36.371 +01:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 19:38:36.419 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 19:38:36.420 +01:00 [INF] Hosting environment: Development
+2025-11-08 19:38:36.421 +01:00 [INF] Content root path: C:\Users\Yusei\RiderProjects\BizBuddy\BizBuddy.Api
+2025-11-08 19:38:39.008 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/ - null null
+2025-11-08 19:38:39.037 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 19:38:39.074 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/ - 301 0 null 68.2908ms
+2025-11-08 19:38:39.092 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 19:38:39.224 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 133.1044ms
+2025-11-08 19:38:39.396 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui.css - null null
+2025-11-08 19:38:39.396 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - null null
+2025-11-08 19:38:39.397 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - null null
+2025-11-08 19:38:39.433 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-08 19:38:39.433 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-08 19:38:39.433 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-08 19:38:39.437 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui.css - 200 152034 text/css 40.8625ms
+2025-11-08 19:38:39.437 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - 200 230280 text/javascript 39.9941ms
+2025-11-08 19:38:39.437 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - 200 1456682 text/javascript 40.8447ms
+2025-11-08 19:38:39.711 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 19:38:39.758 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - null null
+2025-11-08 19:38:39.760 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-08 19:38:39.761 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - 200 628 image/png 2.7741ms
+2025-11-08 19:38:39.800 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.5944ms

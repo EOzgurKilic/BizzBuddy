@@ -1,0 +1,14 @@
+.vs/
+.idea/
+.vscode/
+*.DotSettings.user
+
+**/bin/
+**/obj/
+TestResults/
+
+
+*.user
+*.suo
+*.log
+*.vsidx
