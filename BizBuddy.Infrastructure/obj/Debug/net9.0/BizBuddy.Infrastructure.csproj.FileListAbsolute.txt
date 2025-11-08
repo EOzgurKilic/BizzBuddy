@@ -1,0 +1,17 @@
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/bin/Debug/net9.0/BizBuddy.Infrastructure.deps.json
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/bin/Debug/net9.0/BizBuddy.Infrastructure.dll
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/bin/Debug/net9.0/BizBuddy.Infrastructure.pdb
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/bin/Debug/net9.0/BizBuddy.Application.dll
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/bin/Debug/net9.0/BizBuddy.Domain.dll
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/bin/Debug/net9.0/BizBuddy.Domain.pdb
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/bin/Debug/net9.0/BizBuddy.Application.pdb
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/obj/Debug/net9.0/BizBuddy.Infrastructure.csproj.AssemblyReference.cache
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/obj/Debug/net9.0/BizBuddy.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/obj/Debug/net9.0/BizBuddy.Infrastructure.AssemblyInfoInputs.cache
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/obj/Debug/net9.0/BizBuddy.Infrastructure.AssemblyInfo.cs
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/obj/Debug/net9.0/BizBuddy.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/obj/Debug/net9.0/BizBuddy.EA20319D.Up2Date
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/obj/Debug/net9.0/BizBuddy.Infrastructure.dll
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/obj/Debug/net9.0/refint/BizBuddy.Infrastructure.dll
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/obj/Debug/net9.0/BizBuddy.Infrastructure.pdb
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/obj/Debug/net9.0/ref/BizBuddy.Infrastructure.dll

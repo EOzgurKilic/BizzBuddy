@@ -1,0 +1,779 @@
+2025-11-08 18:06:17.691 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:06:17.714 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:06:17.714 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:06:17.714 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:09:55.648 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:09:55.671 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:09:55.671 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:09:55.671 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:10:18.296 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:10:18.320 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:10:18.320 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:10:18.320 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:11:05.368 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-08 18:11:29.500 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-08 18:12:10.357 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-08 18:12:20.670 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-08 18:13:04.882 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:13:04.907 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:13:04.907 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:13:04.907 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:13:07.798 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/ - null null
+2025-11-08 18:13:07.806 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:13:07.818 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/ - 301 0 null 20.4004ms
+2025-11-08 18:13:07.825 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:13:07.860 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 35.4356ms
+2025-11-08 18:13:07.867 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui.css - null null
+2025-11-08 18:13:07.867 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - null null
+2025-11-08 18:13:07.867 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - null null
+2025-11-08 18:13:07.878 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-08 18:13:07.878 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-08 18:13:07.878 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-08 18:13:07.879 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - 200 230280 text/javascript 11.6791ms
+2025-11-08 18:13:07.879 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui.css - 200 152034 text/css 12.0534ms
+2025-11-08 18:13:07.879 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - 200 1456682 text/javascript 11.9972ms
+2025-11-08 18:13:07.955 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:13:07.962 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - null null
+2025-11-08 18:13:07.962 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-08 18:13:07.962 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - 200 628 image/png 0.3268ms
+2025-11-08 18:13:07.990 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.0955ms
+2025-11-08 18:15:03.098 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:15:03.122 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:15:03.123 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:15:03.123 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:15:05.683 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:15:05.691 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:15:05.740 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 57.586ms
+2025-11-08 18:15:05.831 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:15:05.871 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.6032ms
+2025-11-08 18:15:13.611 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 49
+2025-11-08 18:15:13.617 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:15:13.634 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:15:13.667 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:15:28.671 +03:00 [ERR] An error occurred using the connection to database 'BizBuddyDb' on server '.'.
+2025-11-08 18:15:28.683 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'BizBuddy.Infrastructure.Persistence.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2025-11-08 18:16:11.205 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:16:11.234 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:16:11.235 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:16:11.235 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:16:12.755 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:16:12.765 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:16:12.811 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 56.2481ms
+2025-11-08 18:16:12.854 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:16:12.894 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.8189ms
+2025-11-08 18:16:22.136 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 49
+2025-11-08 18:16:22.146 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:16:22.167 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:16:22.203 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:16:47.369 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:16:47.392 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:16:47.393 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:16:47.393 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:16:50.974 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:16:50.984 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:16:51.031 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 57.4755ms
+2025-11-08 18:16:51.075 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:16:51.115 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.5704ms
+2025-11-08 18:16:56.410 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 49
+2025-11-08 18:16:56.419 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:16:56.437 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:16:56.475 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:22:59.330 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:22:59.354 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:22:59.354 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:22:59.354 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:23:01.471 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:23:01.480 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:23:01.528 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 57.0275ms
+2025-11-08 18:23:01.570 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:23:01.610 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.7053ms
+2025-11-08 18:23:03.871 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:23:03.878 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:23:03.897 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:23:03.929 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:23:08.028 +03:00 [INF] Executing ObjectResult, writing value of type 'BizBuddy.Application.Common.Result`1[[System.Int64, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-08 18:23:08.040 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api) in 4140.4557ms
+2025-11-08 18:23:08.040 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:23:08.041 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatePerson - 200 null application/json; charset=utf-8 4169.7369ms
+2025-11-08 18:23:23.944 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:23:23.968 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:23:23.968 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:23:23.968 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:23:26.513 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:23:26.527 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:23:26.535 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:23:26.547 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:23:26.587 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:28:27.343 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:28:27.366 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:28:27.366 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:28:27.366 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:28:33.712 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:28:33.720 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:28:33.766 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 54.658ms
+2025-11-08 18:28:33.815 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:28:33.854 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.4065ms
+2025-11-08 18:28:41.763 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:28:41.770 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:28:41.788 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:28:41.828 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:29:45.023 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:29:45.045 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:29:45.045 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:29:45.046 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:29:46.045 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:29:46.053 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:29:46.096 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 51.5526ms
+2025-11-08 18:29:46.136 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:29:46.175 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.5645ms
+2025-11-08 18:29:55.361 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:29:55.368 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:29:55.381 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:29:55.412 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:32:31.386 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:32:31.411 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:32:31.412 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:32:31.412 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:32:32.857 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:32:32.866 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:32:32.910 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 53.5742ms
+2025-11-08 18:32:32.954 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:32:32.988 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.8372ms
+2025-11-08 18:32:38.273 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:32:38.278 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.Create (BizBuddy.Api)'
+2025-11-08 18:32:38.298 +03:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:32:38.331 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:32:53.242 +03:00 [ERR] An error occurred using the connection to database 'BizBuddyDb' on server '.'.
+2025-11-08 18:32:53.251 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'BizBuddy.Infrastructure.Persistence.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2025-11-08 18:32:53.257 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Person.PersonController.Create (BizBuddy.Api) in 14956.694ms
+2025-11-08 18:32:53.257 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Person.PersonController.Create (BizBuddy.Api)'
+2025-11-08 18:32:53.258 +03:00 [ERR] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at BizBuddy.Infrastructure.Persistence.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/Persistence/ApplicationDbContext.cs:line 39
+   at BizBuddy.Application.Features.Persons.Commands.CreatePersonCommandHandler.Handle(CreatePersonCommand request, CancellationToken cancellationToken) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Application/Personel/Commands/CreatePerson/CreatePersonCommand.cs:line 31
+   at BizBuddy.Api.Controllers.Person.PersonController.Create(CreatePersonCommand command) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api/Controllers/Person/PersonController.cs:line 14
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api/Middleware/ExceptionMiddleware.cs:line 22
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2025-11-08 18:32:53.271 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatePerson - 500 null application/json 14997.9425ms
+2025-11-08 18:33:03.568 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:33:03.570 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.Create (BizBuddy.Api)'
+2025-11-08 18:33:03.571 +03:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:33:15.377 +03:00 [INF] Application is shutting down...
+2025-11-08 18:33:18.180 +03:00 [ERR] An error occurred using the connection to database 'BizBuddyDb' on server '.'.
+2025-11-08 18:33:18.183 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'BizBuddy.Infrastructure.Persistence.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2025-11-08 18:33:18.187 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Person.PersonController.Create (BizBuddy.Api) in 14615.7532ms
+2025-11-08 18:33:18.187 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Person.PersonController.Create (BizBuddy.Api)'
+2025-11-08 18:33:18.188 +03:00 [ERR] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at BizBuddy.Infrastructure.Persistence.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Infrastructure/Persistence/ApplicationDbContext.cs:line 39
+   at BizBuddy.Application.Features.Persons.Commands.CreatePersonCommandHandler.Handle(CreatePersonCommand request, CancellationToken cancellationToken) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Application/Personel/Commands/CreatePerson/CreatePersonCommand.cs:line 31
+   at BizBuddy.Api.Controllers.Person.PersonController.Create(CreatePersonCommand command) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api/Controllers/Person/PersonController.cs:line 14
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api/Middleware/ExceptionMiddleware.cs:line 22
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2025-11-08 18:33:18.193 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatePerson - 500 null application/json 14624.787ms
+2025-11-08 18:33:26.792 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:33:26.813 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:33:26.814 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:33:26.814 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:33:49.080 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:33:49.088 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:33:49.134 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 54.7547ms
+2025-11-08 18:33:49.178 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:33:49.216 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.3585ms
+2025-11-08 18:33:54.948 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 40
+2025-11-08 18:33:54.956 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.Create (BizBuddy.Api)'
+2025-11-08 18:33:54.967 +03:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:33:55.000 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:39:26.210 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:39:26.233 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:39:26.233 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:39:26.233 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:39:28.418 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:39:28.427 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:39:28.477 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 60.1817ms
+2025-11-08 18:39:28.523 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:39:28.567 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.4801ms
+2025-11-08 18:39:35.150 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:39:35.158 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:39:35.175 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:39:35.214 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:40:21.828 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:40:21.851 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:40:21.851 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:40:21.851 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:40:22.833 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:40:22.842 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:40:22.891 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 58.9574ms
+2025-11-08 18:40:22.937 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:40:22.976 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.424ms
+2025-11-08 18:40:30.384 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:40:30.390 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:40:30.406 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:40:30.440 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:41:34.163 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:41:34.187 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:41:34.187 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:41:34.187 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:41:43.868 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:41:43.876 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:41:43.921 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 54.3963ms
+2025-11-08 18:41:43.965 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:41:44.005 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.1701ms
+2025-11-08 18:41:51.129 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:41:51.135 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:41:51.155 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:41:51.188 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:43:25.490 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:43:25.514 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:43:25.514 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:43:25.514 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:43:32.908 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:43:32.915 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:43:32.959 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 51.982ms
+2025-11-08 18:43:33.001 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:43:33.042 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.2045ms
+2025-11-08 18:43:39.986 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:43:39.993 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:43:40.006 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:43:40.044 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:46:34.970 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:46:34.993 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:46:34.993 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:46:34.993 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:46:55.701 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:46:55.711 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:46:55.761 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 60.507ms
+2025-11-08 18:46:55.810 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:46:55.849 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.387ms
+2025-11-08 18:47:03.741 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 40
+2025-11-08 18:47:03.747 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:47:03.761 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:47:03.788 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:48:07.762 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:48:07.787 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:48:07.787 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:48:07.787 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:50:23.719 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:50:23.729 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:50:23.776 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 58.0809ms
+2025-11-08 18:50:23.817 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:50:23.857 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.0039ms
+2025-11-08 18:50:31.997 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 51
+2025-11-08 18:50:32.006 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:50:32.026 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:50:32.061 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:51:00.204 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:51:00.226 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:51:00.227 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:51:00.227 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:51:01.162 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:51:01.171 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:51:01.219 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 57.4637ms
+2025-11-08 18:51:01.261 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:51:01.304 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.9409ms
+2025-11-08 18:52:37.174 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:52:37.183 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:52:37.199 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:52:37.235 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:53:01.168 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:53:01.191 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:53:01.192 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:53:01.192 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:53:20.188 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:53:20.201 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:53:20.211 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:53:20.224 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:53:20.265 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:53:27.780 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api) in 7553.3711ms
+2025-11-08 18:53:27.791 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:53:27.818 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatePerson - 400 null application/json; charset=utf-8 7630.6895ms
+2025-11-08 18:53:35.167 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 53
+2025-11-08 18:53:35.167 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:53:35.168 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:55:17.582 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:55:17.604 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:55:17.605 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:55:17.605 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:55:19.138 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:55:19.146 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:55:19.192 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 54.9322ms
+2025-11-08 18:55:19.237 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:55:19.277 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.1232ms
+2025-11-08 18:55:25.881 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:55:25.886 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:55:25.901 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:55:25.929 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:55:51.065 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api) in 25162.6891ms
+2025-11-08 18:55:51.066 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:55:51.067 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- FirstName: FirstName boş bırakılamaz. Severity: Error
+ -- LastName: LastName boş bırakılamaz. Severity: Error
+   at BizBuddy.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Application/Common/Behaviors/ValidationBehavior.cs:line 29
+   at BizBuddy.Api.Controllers.Person.PersonController.CreatePerson(CreatePersonCommand command) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api/Controllers/Person/PersonController.cs:line 14
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-08 18:55:55.089 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatePerson - 500 null text/plain; charset=utf-8 29209.0889ms
+2025-11-08 18:57:20.854 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 18:57:20.876 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 18:57:20.876 +03:00 [INF] Hosting environment: Development
+2025-11-08 18:57:20.876 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 18:57:28.205 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 18:57:28.213 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 18:57:28.256 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 51.827ms
+2025-11-08 18:57:28.300 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 18:57:28.338 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.3893ms
+2025-11-08 18:57:33.870 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 18:57:33.879 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:57:33.895 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 18:57:33.934 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 18:57:44.258 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api) in 10360.166ms
+2025-11-08 18:57:44.260 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 18:57:44.263 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- FirstName: FirstName boş bırakılamaz. Severity: Error
+ -- LastName: LastName boş bırakılamaz. Severity: Error
+   at BizBuddy.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Application/Common/Behaviors/ValidationBehavior.cs:line 29
+   at BizBuddy.Api.Controllers.Person.PersonController.CreatePerson(CreatePersonCommand command) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api/Controllers/Person/PersonController.cs:line 14
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-11-08 18:57:44.313 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatePerson - 400 null application/json; charset=utf-8 10442.8829ms
+2025-11-08 19:00:55.552 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 19:00:55.577 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 19:00:55.577 +03:00 [INF] Hosting environment: Development
+2025-11-08 19:00:55.577 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 19:00:58.225 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 19:00:58.233 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 19:00:58.274 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 50.0304ms
+2025-11-08 19:00:58.319 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 19:00:58.356 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.2518ms
+2025-11-08 19:01:06.692 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 19:01:06.698 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 19:01:06.713 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 19:01:06.749 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 19:01:06.763 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api) in 48.5792ms
+2025-11-08 19:01:06.763 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 19:01:06.764 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- FirstName: FirstName boş bırakılamaz. Severity: Error
+ -- LastName: LastName boş bırakılamaz. Severity: Error
+   at BizBuddy.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Application/Common/Behaviors/ValidationBehavior.cs:line 29
+   at BizBuddy.Api.Controllers.Person.PersonController.CreatePerson(CreatePersonCommand command) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api/Controllers/Person/PersonController.cs:line 14
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-11-08 19:01:06.781 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatePerson - 400 null application/json; charset=utf-8 88.9745ms
+2025-11-08 19:01:53.091 +03:00 [INF] Application is shutting down...
+2025-11-08 19:01:58.104 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-08 19:01:58.129 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 19:01:58.129 +03:00 [INF] Hosting environment: Development
+2025-11-08 19:01:58.129 +03:00 [INF] Content root path: /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api
+2025-11-08 19:02:01.744 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-08 19:02:01.750 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-08 19:02:01.791 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 47.5499ms
+2025-11-08 19:02:01.834 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-08 19:02:01.870 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.7065ms
+2025-11-08 19:02:05.159 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatePerson - application/json 39
+2025-11-08 19:02:05.164 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 19:02:05.182 +03:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatePerson(BizBuddy.Application.Features.Persons.Commands.CreatePersonCommand) on controller BizBuddy.Api.Controllers.Person.PersonController (BizBuddy.Api).
+2025-11-08 19:02:05.217 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-08 19:02:05.231 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api) in 47.3448ms
+2025-11-08 19:02:05.231 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Person.PersonController.CreatePerson (BizBuddy.Api)'
+2025-11-08 19:02:05.231 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- FirstName: FirstName boş bırakılamaz. Severity: Error
+ -- LastName: LastName boş bırakılamaz. Severity: Error
+   at BizBuddy.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Application/Common/Behaviors/ValidationBehavior.cs:line 29
+   at BizBuddy.Api.Controllers.Person.PersonController.CreatePerson(CreatePersonCommand command) in /Users/vlknn/Desktop/BizBuddy/BizBuddy.Api/Controllers/Person/PersonController.cs:line 14
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-11-08 19:02:05.246 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatePerson - 400 null application/json; charset=utf-8 86.875ms
+2025-11-08 20:32:56.027 +03:00 [INF] Application is shutting down...
