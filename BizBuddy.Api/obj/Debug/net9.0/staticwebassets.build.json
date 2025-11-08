@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "tDf/LWBKgJOakjrtahMl2nqO2xzY0bpWnB8flr/FNvA=",
+  "Source": "BizBuddy.Api",
+  "BasePath": "_content/BizBuddy.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

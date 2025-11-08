@@ -1,0 +1,11 @@
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Domain/bin/Debug/net9.0/BizBuddy.Domain.deps.json
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Domain/bin/Debug/net9.0/BizBuddy.Domain.dll
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Domain/bin/Debug/net9.0/BizBuddy.Domain.pdb
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Domain/obj/Debug/net9.0/BizBuddy.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Domain/obj/Debug/net9.0/BizBuddy.Domain.AssemblyInfoInputs.cache
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Domain/obj/Debug/net9.0/BizBuddy.Domain.AssemblyInfo.cs
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Domain/obj/Debug/net9.0/BizBuddy.Domain.csproj.CoreCompileInputs.cache
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Domain/obj/Debug/net9.0/BizBuddy.Domain.dll
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Domain/obj/Debug/net9.0/refint/BizBuddy.Domain.dll
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Domain/obj/Debug/net9.0/BizBuddy.Domain.pdb
+/Users/vlknn/Desktop/BizBuddy/BizBuddy.Domain/obj/Debug/net9.0/ref/BizBuddy.Domain.dll
