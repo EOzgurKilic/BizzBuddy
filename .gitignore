@@ -12,3 +12,4 @@ TestResults/
 *.suo
 *.log
 *.vsidx
+*.cache
