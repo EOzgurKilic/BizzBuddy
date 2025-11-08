@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BizBuddy.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c28a7e653cbc125b7817f5377c43ceb4f9944275")]
 [assembly: System.Reflection.AssemblyProductAttribute("BizBuddy.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BizBuddy.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
