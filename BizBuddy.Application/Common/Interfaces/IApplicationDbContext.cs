@@ -3,7 +3,7 @@ using BizBuddy.Domain.Entities;
 using System.Threading;
 using System.Threading.Tasks;
 using BizBuddy.Domain.Entities.Account;
-using BizBuddy.Domain.Entities.Categorys;
+using BizBuddy.Domain.Entities.Categories;
 using BizBuddy.Domain.Entities.Customers;
 using BizBuddy.Domain.Entities.CustomFieldDefs;
 using BizBuddy.Domain.Entities.InventoryMoves;

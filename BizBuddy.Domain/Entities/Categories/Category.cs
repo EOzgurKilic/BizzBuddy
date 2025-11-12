@@ -3,11 +3,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 using BizBuddy.Domain.Common;
 using BizBuddy.Domain.Entities.Products;
 
-namespace BizBuddy.Domain.Entities.Categorys;
+namespace BizBuddy.Domain.Entities.Categories; //namespace and the folder name along
 
 
 
-[Table(nameof(Category), Schema = "Categorys")]
+[Table(nameof(Category), Schema = "Categories")] //Spelling corrected.
 
 public class Category : BaseEntityTenant
 {

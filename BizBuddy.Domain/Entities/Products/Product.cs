@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using BizBuddy.Domain.Common;
-using BizBuddy.Domain.Entities.Categorys;
+using BizBuddy.Domain.Entities.Categories;
 
 namespace BizBuddy.Domain.Entities.Products;
 
