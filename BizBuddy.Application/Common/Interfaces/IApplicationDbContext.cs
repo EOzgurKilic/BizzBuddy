@@ -18,7 +18,6 @@ namespace BizBuddy.Application.Common.Interfaces
 {
     public interface IApplicationDbContext
     {
-        DbSet<Person> Persons { get; set; }
         DbSet<User> User { get; set; }
         DbSet<Category> Category { get; set; }
         DbSet<Customer> Customer { get; set; }
