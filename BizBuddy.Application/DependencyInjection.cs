@@ -12,18 +12,19 @@ namespace BizBuddy.Application
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             // MediatR 13.x için
-            services.AddMediatR(cfg => 
+            services.AddMediatR(cfg =>
                 cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly())
             );
 
             // Pipeline Behavior (FluentValidation tetiklenecek)
-services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
             // AutoMapper
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
             // FluentValidation
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+            
 
             return services;
         }

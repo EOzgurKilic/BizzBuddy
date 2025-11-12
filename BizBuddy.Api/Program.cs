@@ -2,6 +2,8 @@ using BizBuddy.Application;
 using BizBuddy.Application.Common.Interfaces;
 using BizBuddy.Infrastructure.Persistence;
 using MediatR;
+using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
@@ -32,36 +34,37 @@ builder.Services.AddScoped<IApplicationDbContext>(provider => provider.GetRequir
 
 var app = builder.Build();
 
-app.UseExceptionHandler(appBuilder =>
+app.UseExceptionHandler(appError =>
 {
-    appBuilder.Run(async context =>
+    appError.Run(async context =>
     {
-        context.Response.ContentType = "application/json";
-        var exception = context.Features
-            .Get<Microsoft.AspNetCore.Diagnostics.IExceptionHandlerFeature>()?.Error;
+        var feature = context.Features.Get<IExceptionHandlerPathFeature>();
+        var ex = feature?.Error;
 
-        if (exception is FluentValidation.ValidationException validationException)
+        if (ex is FluentValidation.ValidationException vex)
         {
             context.Response.StatusCode = StatusCodes.Status400BadRequest;
+            var errors = vex.Errors
+                .GroupBy(e => e.PropertyName)
+                .ToDictionary(g => g.Key, g => g.Select(e => e.ErrorMessage).ToArray());
 
-            // Tüm error mesajlarını tek string yap
-            var errorMessage = string.Join(" ", validationException.Errors.Select(e => e.ErrorMessage));
+            await context.Response.WriteAsJsonAsync(new ValidationProblemDetails(errors)
+            {
+                Title = "Validation failed",
+                Status = StatusCodes.Status400BadRequest
+            });
+            return;
+        }
 
-            await context.Response.WriteAsJsonAsync(new { error = errorMessage });
-        }
-        else
-        {
-            context.Response.StatusCode = StatusCodes.Status500InternalServerError;
-            await context.Response.WriteAsJsonAsync(new { error = exception?.Message });
-        }
+        context.Response.StatusCode = StatusCodes.Status500InternalServerError;
+        await context.Response.WriteAsJsonAsync(new { title = "Unexpected error" });
     });
 });
 
 
 app.UseHttpsRedirection();
 
-
-// app.UseMiddleware<ExceptionMiddleware>();
+ app.UseMiddleware<ExceptionMiddleware>();
 
 if (app.Environment.IsDevelopment())
 {
@@ -69,9 +72,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "BizBuddy API V1");
-        c.RoutePrefix = string.Empty;
+        c.RoutePrefix = string.Empty; 
     });
 }
+
 
 app.UseAuthorization();
 

@@ -4,11 +4,10 @@ using BizBuddy.Domain.Common;
 
 namespace BizBuddy.Domain.Entities.Tenats;
 
-
-[Table(nameof(Tenat), Schema = "Tenats")]
-public class Tenat : BaseEntity
+[Table(nameof(Tenantt), Schema = "Tenants")]
+public class Tenantt : BaseEntity
 {
-    public long Id { get; set; }
+    public int Id { get; set; }
     public string Name { get; set; } 
     public string? PresetName { get; set; }
 }

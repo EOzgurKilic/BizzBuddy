@@ -1,33 +1,61 @@
+using FluentValidation;
+using Microsoft.AspNetCore.Http;
+using System.Text.Json;
+
 public class ExceptionMiddleware
 {
     private readonly RequestDelegate _next;
-    private readonly ILogger<ExceptionMiddleware> _logger;
 
-    public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger)
+    public ExceptionMiddleware(RequestDelegate next)
     {
         _next = next;
-        _logger = logger;
     }
 
-    public async Task InvokeAsync(HttpContext context)
+    public async Task InvokeAsync(HttpContext httpContext)
     {
         try
         {
-            await _next(context);
-        }
-        catch (FluentValidation.ValidationException ex)
-        {
-            context.Response.StatusCode = 400; // Bad Request
-            context.Response.ContentType = "application/json";
-
-            var errors = ex.Errors.Select(e => new { e.PropertyName, e.ErrorMessage });
-            await context.Response.WriteAsJsonAsync(new { errors });
+            await _next(httpContext);
         }
         catch (Exception ex)
         {
-            context.Response.StatusCode = 500;
-            context.Response.ContentType = "application/json";
-            await context.Response.WriteAsJsonAsync(new { error = ex.Message });
+            await HandleExceptionAsync(httpContext, ex);
         }
+    }
+
+    private static Task HandleExceptionAsync(HttpContext context, Exception exception)
+    {
+        context.Response.ContentType = "application/json";
+        
+        // Hata türüne göre HTTP durum kodunu belirle
+        var statusCode = StatusCodes.Status500InternalServerError;
+        var message = "Internal Server Error.";
+        var errors = new Dictionary<string, string[]>();
+
+        if (exception is ValidationException validationException)
+        {
+            statusCode = StatusCodes.Status400BadRequest;
+            message = "Validation Failed.";
+            
+            // FluentValidation hatalarını gruplayıp daha temiz bir formata dönüştür
+            errors = validationException.Errors
+                .GroupBy(x => x.PropertyName)
+                .ToDictionary(
+                    g => g.Key,
+                    g => g.Select(x => x.ErrorMessage).ToArray()
+                );
+        }
+        
+        context.Response.StatusCode = statusCode;
+
+        // Yanıt gövdesini oluştur
+        var result = JsonSerializer.Serialize(new 
+        { 
+            statusCode, 
+            message, 
+            errors 
+        });
+
+        return context.Response.WriteAsync(result);
     }
 }

@@ -11,7 +11,8 @@ namespace BizBuddy.Domain.Entities.Orders;
 public class Order : BaseEntityTenant
 {
     public int Id { get; set; }
-    public long CustomerId { get; set; }
+
+    public int CustomerId { get; set; }
     public Customer Customer { get; set; }
 
     public string Status { get; set; }
@@ -27,6 +28,9 @@ public class Order : BaseEntityTenant
     public string? Notes { get; set; }
     public string? Custom { get; set; }
 
+    // OrderItem collection
     public ICollection<OrderItem> Items { get; set; } = new List<OrderItem>();
+
+    // Payment collection
     public ICollection<Payment> Payments { get; set; } = new List<Payment>();
 }

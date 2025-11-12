@@ -9,7 +9,7 @@ namespace BizBuddy.Domain.Entities.RoleAssignment;
 
 public class Branding : BaseEntity
 {
-    public long Id { get; set; }
+    public int Id { get; set; }
     public string BrandName { get; set; }
     public string? LogoUrl { get; set; }
     public string? FaviconUrl { get; set; }

@@ -42,7 +42,7 @@ namespace BizBuddy.Infrastructure.Persistence
         public DbSet<Branding> Branding { get; set; }
         public DbSet<Role> Role { get; set; }
         public DbSet<Employee> Employee { get; set; }
-        public DbSet<Tenat> Tenat { get; set; }
+        public DbSet<Tenantt> Tenat { get; set; }
 
         // SaveChanges override
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
@@ -74,6 +74,8 @@ namespace BizBuddy.Infrastructure.Persistence
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Branding>().OwnsOne(b => b.DarkMode);
 
             foreach (var entityType in modelBuilder.Model.GetEntityTypes())
             {

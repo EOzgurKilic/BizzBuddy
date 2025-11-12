@@ -8,12 +8,12 @@ namespace BizBuddy.Domain.Entities.Preset;
 [Table(nameof(TenantSettings), Schema = "Preset")]
 public class TenantSettings : BaseEntityTenant
 {
-    public long Id { get; set; }
+    public int Id { get; set; }
     public List<string> EnabledModules { get; set; }
     public List<string> MenuOrder { get; set; }
 
     public Branding Branding { get; set; }
     
-    public long BrandingId { get; set; }
+    public int BrandingId { get; set; }
     
 }

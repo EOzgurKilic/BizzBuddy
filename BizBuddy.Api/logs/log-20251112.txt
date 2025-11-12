@@ -1,0 +1,1598 @@
+2025-11-12 19:55:47.099 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-11-12 19:55:47.175 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 19:55:47.177 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 19:55:47.177 +03:00 [INF] Hosting environment: Development
+2025-11-12 19:55:47.177 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 19:55:50.331 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-12 19:55:50.358 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 19:55:50.456 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 126.2636ms
+2025-11-12 19:55:50.490 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui.css - null null
+2025-11-12 19:55:50.492 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - null null
+2025-11-12 19:55:50.522 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - null null
+2025-11-12 19:55:50.569 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-12 19:55:50.570 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui.css - 200 152034 text/css 80.442ms
+2025-11-12 19:55:50.570 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-12 19:55:50.571 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - 200 230280 text/javascript 78.76ms
+2025-11-12 19:55:50.588 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-12 19:55:50.589 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - 200 1456682 text/javascript 65.937ms
+2025-11-12 19:55:50.711 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-12 19:55:50.738 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.4599ms
+2025-11-12 20:03:38.626 +03:00 [WRN] The foreign key property 'Appointment.CustomerId1' was created in shadow state because a conflicting property with the simple name 'CustomerId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-12 20:07:55.755 +03:00 [WRN] The foreign key property 'Order.CustomerId1' was created in shadow state because a conflicting property with the simple name 'CustomerId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-12 20:22:34.285 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'InventoryMove'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:34.309 +03:00 [WRN] No store type was specified for the decimal property 'DiscountTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:34.309 +03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:34.309 +03:00 [WRN] No store type was specified for the decimal property 'TaxTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:34.309 +03:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:34.309 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:34.309 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:34.309 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:34.309 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:34.309 +03:00 [WRN] No store type was specified for the decimal property 'StockQty' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:47.364 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'InventoryMove'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:47.387 +03:00 [WRN] No store type was specified for the decimal property 'DiscountTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:47.387 +03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:47.387 +03:00 [WRN] No store type was specified for the decimal property 'TaxTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:47.387 +03:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:47.387 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:47.388 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:47.388 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:47.388 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:47.388 +03:00 [WRN] No store type was specified for the decimal property 'StockQty' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 20:22:50.802 +03:00 [INF] Executed DbCommand (1,725ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [BizBuddyDb];
+2025-11-12 20:22:52.018 +03:00 [INF] Executed DbCommand (1,212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [BizBuddyDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-11-12 20:22:52.797 +03:00 [INF] Executed DbCommand (134ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-12 20:22:52.803 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-11-12 20:22:52.990 +03:00 [INF] Executed DbCommand (184ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-11-12 20:22:53.292 +03:00 [INF] Executed DbCommand (169ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-11-12 20:22:53.655 +03:00 [INF] Executed DbCommand (107ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-12 20:22:53.777 +03:00 [INF] Executed DbCommand (121ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-11-12 20:22:53.903 +03:00 [INF] Executed DbCommand (122ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-11-12 20:22:53.916 +03:00 [INF] Applying migration '20251112172234_firstTables'.
+2025-11-12 20:22:54.083 +03:00 [INF] Executed DbCommand (126ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF SCHEMA_ID(N'Orders') IS NULL EXEC(N'CREATE SCHEMA [Orders];');
+2025-11-12 20:22:54.192 +03:00 [INF] Executed DbCommand (109ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF SCHEMA_ID(N'Preset') IS NULL EXEC(N'CREATE SCHEMA [Preset];');
+2025-11-12 20:22:54.310 +03:00 [INF] Executed DbCommand (118ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF SCHEMA_ID(N'Categories') IS NULL EXEC(N'CREATE SCHEMA [Categories];');
+2025-11-12 20:22:54.448 +03:00 [INF] Executed DbCommand (138ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF SCHEMA_ID(N'Customers') IS NULL EXEC(N'CREATE SCHEMA [Customers];');
+2025-11-12 20:22:54.560 +03:00 [INF] Executed DbCommand (112ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF SCHEMA_ID(N'CustomFieldDefs') IS NULL EXEC(N'CREATE SCHEMA [CustomFieldDefs];');
+2025-11-12 20:22:54.722 +03:00 [INF] Executed DbCommand (161ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF SCHEMA_ID(N'Staff') IS NULL EXEC(N'CREATE SCHEMA [Staff];');
+2025-11-12 20:22:54.858 +03:00 [INF] Executed DbCommand (136ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF SCHEMA_ID(N'InventoryMoves') IS NULL EXEC(N'CREATE SCHEMA [InventoryMoves];');
+2025-11-12 20:22:54.961 +03:00 [INF] Executed DbCommand (103ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF SCHEMA_ID(N'Products') IS NULL EXEC(N'CREATE SCHEMA [Products];');
+2025-11-12 20:22:55.107 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF SCHEMA_ID(N'RoleAssignment') IS NULL EXEC(N'CREATE SCHEMA [RoleAssignment];');
+2025-11-12 20:22:55.223 +03:00 [INF] Executed DbCommand (115ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF SCHEMA_ID(N'Tenats') IS NULL EXEC(N'CREATE SCHEMA [Tenats];');
+2025-11-12 20:22:55.330 +03:00 [INF] Executed DbCommand (106ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF SCHEMA_ID(N'Account') IS NULL EXEC(N'CREATE SCHEMA [Account];');
+2025-11-12 20:22:55.469 +03:00 [INF] Executed DbCommand (138ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Preset].[Branding] (
+    [Id] int NOT NULL IDENTITY,
+    [BrandName] nvarchar(max) NOT NULL,
+    [LogoUrl] nvarchar(max) NULL,
+    [FaviconUrl] nvarchar(max) NULL,
+    [Background] nvarchar(max) NULL,
+    [Surface] nvarchar(max) NULL,
+    [Shadow] nvarchar(max) NULL,
+    [FontFamily] nvarchar(max) NULL,
+    [DarkMode_Enabled] bit NULL,
+    [DarkMode_Background] nvarchar(max) NULL,
+    [DarkMode_Surface] nvarchar(max) NULL,
+    [DarkMode_Text] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    CONSTRAINT [PK_Branding] PRIMARY KEY ([Id])
+);
+2025-11-12 20:22:55.571 +03:00 [INF] Executed DbCommand (100ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories].[Category] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [ParentId] int NULL,
+    [Type] nvarchar(max) NULL,
+    [SortOrder] int NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    [TenantId] int NOT NULL,
+    CONSTRAINT [PK_Category] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Category_Category_ParentId] FOREIGN KEY ([ParentId]) REFERENCES [Categories].[Category] ([Id])
+);
+2025-11-12 20:22:55.686 +03:00 [INF] Executed DbCommand (114ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Customers].[Customer] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Phone] nvarchar(max) NULL,
+    [Email] nvarchar(max) NULL,
+    [Tags] nvarchar(max) NULL,
+    [Notes] nvarchar(max) NULL,
+    [Address] nvarchar(max) NULL,
+    [Password] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    [TenantId] int NOT NULL,
+    CONSTRAINT [PK_Customer] PRIMARY KEY ([Id])
+);
+2025-11-12 20:22:55.777 +03:00 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [CustomFieldDefs].[CustomFieldDef] (
+    [Id] int NOT NULL IDENTITY,
+    [EntityType] nvarchar(max) NOT NULL,
+    [Key] nvarchar(max) NOT NULL,
+    [Label] nvarchar(max) NOT NULL,
+    [DataType] nvarchar(max) NOT NULL,
+    [Required] bit NOT NULL,
+    [Options] nvarchar(max) NULL,
+    [Order] int NOT NULL,
+    [IsActive] bit NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    [TenantId] int NOT NULL,
+    CONSTRAINT [PK_CustomFieldDef] PRIMARY KEY ([Id])
+);
+2025-11-12 20:22:55.870 +03:00 [INF] Executed DbCommand (92ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Staff].[Employee] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [SurName] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Phone] int NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    [TenantId] int NOT NULL,
+    CONSTRAINT [PK_Employee] PRIMARY KEY ([Id])
+);
+2025-11-12 20:22:55.965 +03:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Preset].[PresetSettings] (
+    [Id] int NOT NULL IDENTITY,
+    [EnabledModules] nvarchar(max) NOT NULL,
+    [MenuOrder] nvarchar(max) NOT NULL,
+    [Notes] nvarchar(max) NULL,
+    [EnabledModulesJson] nvarchar(max) NULL,
+    [MenuOrderJson] nvarchar(max) NULL,
+    [DefaultFieldsJson] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    CONSTRAINT [PK_PresetSettings] PRIMARY KEY ([Id])
+);
+2025-11-12 20:22:56.159 +03:00 [INF] Executed DbCommand (194ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [RoleAssignment].[Role] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleName] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    [TenantId] int NOT NULL,
+    CONSTRAINT [PK_Role] PRIMARY KEY ([Id])
+);
+2025-11-12 20:22:56.274 +03:00 [INF] Executed DbCommand (114ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Tenats].[Tenat] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [PresetName] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    CONSTRAINT [PK_Tenat] PRIMARY KEY ([Id])
+);
+2025-11-12 20:22:56.367 +03:00 [INF] Executed DbCommand (92ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Preset].[TenantSettings] (
+    [Id] int NOT NULL IDENTITY,
+    [EnabledModules] nvarchar(max) NOT NULL,
+    [MenuOrder] nvarchar(max) NOT NULL,
+    [BrandingId] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    [TenantId] int NOT NULL,
+    CONSTRAINT [PK_TenantSettings] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_TenantSettings_Branding_BrandingId] FOREIGN KEY ([BrandingId]) REFERENCES [Preset].[Branding] ([Id]) ON DELETE CASCADE
+);
+2025-11-12 20:22:56.471 +03:00 [INF] Executed DbCommand (104ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products].[Product] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [CategoryId] int NOT NULL,
+    [Sku] nvarchar(max) NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [StockQty] decimal(18,2) NULL,
+    [Unit] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    [TenantId] int NOT NULL,
+    CONSTRAINT [PK_Product] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Product_Category_CategoryId] FOREIGN KEY ([CategoryId]) REFERENCES [Categories].[Category] ([Id]) ON DELETE CASCADE
+);
+2025-11-12 20:22:56.558 +03:00 [INF] Executed DbCommand (87ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Orders].[Appointment] (
+    [Id] int NOT NULL IDENTITY,
+    [CustomerId] int NOT NULL,
+    [Start] datetime2 NOT NULL,
+    [End] datetime2 NOT NULL,
+    [Status] nvarchar(max) NOT NULL,
+    [Notes] nvarchar(max) NULL,
+    [Custom] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    [TenantId] int NOT NULL,
+    CONSTRAINT [PK_Appointment] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Appointment_Customer_CustomerId] FOREIGN KEY ([CustomerId]) REFERENCES [Customers].[Customer] ([Id]) ON DELETE CASCADE
+);
+2025-11-12 20:22:56.654 +03:00 [INF] Executed DbCommand (95ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Orders].[Order] (
+    [Id] int NOT NULL IDENTITY,
+    [CustomerId] int NOT NULL,
+    [Status] nvarchar(max) NOT NULL,
+    [Channel] nvarchar(max) NULL,
+    [Subtotal] decimal(18,2) NOT NULL,
+    [DiscountTotal] decimal(18,2) NULL,
+    [TaxTotal] decimal(18,2) NULL,
+    [Total] decimal(18,2) NOT NULL,
+    [PaymentMethod] nvarchar(max) NOT NULL,
+    [PaidAt] datetime2 NULL,
+    [Notes] nvarchar(max) NULL,
+    [Custom] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    [TenantId] int NOT NULL,
+    CONSTRAINT [PK_Order] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Order_Customer_CustomerId] FOREIGN KEY ([CustomerId]) REFERENCES [Customers].[Customer] ([Id]) ON DELETE CASCADE
+);
+2025-11-12 20:22:56.758 +03:00 [INF] Executed DbCommand (103ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Account].[User] (
+    [Id] int NOT NULL IDENTITY,
+    [DisplayName] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Phone] nvarchar(max) NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    [RoleId] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    [TenantId] int NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_User_Role_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [RoleAssignment].[Role] ([Id]) ON DELETE CASCADE
+);
+2025-11-12 20:22:56.848 +03:00 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [InventoryMoves].[InventoryMove] (
+    [Id] int NOT NULL IDENTITY,
+    [ProductId] int NOT NULL,
+    [Qty] decimal(18,2) NOT NULL,
+    [Reason] nvarchar(max) NULL,
+    [RefType] nvarchar(max) NULL,
+    [RefId] int NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    [TenantId] int NOT NULL,
+    CONSTRAINT [PK_InventoryMove] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_InventoryMove_Product_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products].[Product] ([Id]) ON DELETE CASCADE
+);
+2025-11-12 20:22:56.944 +03:00 [INF] Executed DbCommand (96ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Orders].[OrderItem] (
+    [Id] int NOT NULL IDENTITY,
+    [OrderId] int NOT NULL,
+    [ProductId] int NOT NULL,
+    [Qty] decimal(18,2) NOT NULL,
+    [UnitPrice] decimal(18,2) NOT NULL,
+    [Notes] nvarchar(max) NULL,
+    [Custom] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    [TenantId] int NOT NULL,
+    CONSTRAINT [PK_OrderItem] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItem_Order_OrderId] FOREIGN KEY ([OrderId]) REFERENCES [Orders].[Order] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderItem_Product_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products].[Product] ([Id]) ON DELETE CASCADE
+);
+2025-11-12 20:22:57.035 +03:00 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Orders].[Payment] (
+    [Id] int NOT NULL IDENTITY,
+    [OrderId] int NOT NULL,
+    [Amount] decimal(18,2) NOT NULL,
+    [Method] nvarchar(max) NOT NULL,
+    [ProviderRef] nvarchar(max) NULL,
+    [PaidAt] datetime2 NOT NULL,
+    [Notes] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    [TenantId] int NOT NULL,
+    CONSTRAINT [PK_Payment] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Payment_Order_OrderId] FOREIGN KEY ([OrderId]) REFERENCES [Orders].[Order] ([Id]) ON DELETE CASCADE
+);
+2025-11-12 20:22:57.172 +03:00 [INF] Executed DbCommand (135ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Appointment_CustomerId] ON [Orders].[Appointment] ([CustomerId]);
+2025-11-12 20:22:57.260 +03:00 [INF] Executed DbCommand (88ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Category_ParentId] ON [Categories].[Category] ([ParentId]);
+2025-11-12 20:22:57.367 +03:00 [INF] Executed DbCommand (107ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_InventoryMove_ProductId] ON [InventoryMoves].[InventoryMove] ([ProductId]);
+2025-11-12 20:22:57.481 +03:00 [INF] Executed DbCommand (113ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Order_CustomerId] ON [Orders].[Order] ([CustomerId]);
+2025-11-12 20:22:57.593 +03:00 [INF] Executed DbCommand (112ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_OrderItem_OrderId] ON [Orders].[OrderItem] ([OrderId]);
+2025-11-12 20:22:57.706 +03:00 [INF] Executed DbCommand (113ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_OrderItem_ProductId] ON [Orders].[OrderItem] ([ProductId]);
+2025-11-12 20:22:57.841 +03:00 [INF] Executed DbCommand (133ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Payment_OrderId] ON [Orders].[Payment] ([OrderId]);
+2025-11-12 20:22:57.940 +03:00 [INF] Executed DbCommand (99ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Product_CategoryId] ON [Products].[Product] ([CategoryId]);
+2025-11-12 20:22:58.038 +03:00 [INF] Executed DbCommand (97ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TenantSettings_BrandingId] ON [Preset].[TenantSettings] ([BrandingId]);
+2025-11-12 20:22:58.142 +03:00 [INF] Executed DbCommand (104ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_User_RoleId] ON [Account].[User] ([RoleId]);
+2025-11-12 20:22:58.281 +03:00 [INF] Executed DbCommand (139ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20251112172234_firstTables', N'9.0.10');
+2025-11-12 20:22:58.480 +03:00 [INF] Executed DbCommand (104ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-11-12 21:20:45.217 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 21:20:45.241 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 21:20:45.241 +03:00 [INF] Hosting environment: Development
+2025-11-12 21:20:45.241 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 21:20:48.230 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-12 21:20:48.239 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 21:20:48.284 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 54.2951ms
+2025-11-12 21:20:48.545 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-12 21:20:48.584 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.0015ms
+2025-11-12 21:23:39.237 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 63
+2025-11-12 21:23:39.240 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 21:23:39.257 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 21:23:39.292 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 21:32:01.097 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 21:32:01.121 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 21:32:01.121 +03:00 [INF] Hosting environment: Development
+2025-11-12 21:32:01.121 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 21:32:02.729 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-12 21:32:02.738 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 21:32:02.786 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 57.6702ms
+2025-11-12 21:32:02.951 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-12 21:32:02.991 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.853ms
+2025-11-12 21:32:07.387 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 63
+2025-11-12 21:32:07.396 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 21:32:07.417 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 21:32:07.453 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 21:32:21.930 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api) in 14511.3482ms
+2025-11-12 21:32:21.931 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 21:32:21.932 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Method not found: 'Void AutoMapper.MapperConfiguration..ctor(AutoMapper.MapperConfigurationExpression)'.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_2(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_3(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0(CancellationToken t)
+   at BizBuddy.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/vlknn/BizzBuddy/BizBuddy.Application/Common/Behaviors/ValidationBehavior.cs:line 33
+   at BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat(CreateTenatCommand command) in /Users/vlknn/BizzBuddy/BizBuddy.Api/Controllers/Tenats/TenatController.cs:line 13
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-11-12 21:32:21.959 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatTenat - 500 null application/json; charset=utf-8 14572.5869ms
+2025-11-12 21:34:24.078 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 21:34:24.102 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 21:34:24.102 +03:00 [INF] Hosting environment: Development
+2025-11-12 21:34:24.102 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 21:34:56.362 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 21:34:56.384 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 21:34:56.384 +03:00 [INF] Hosting environment: Development
+2025-11-12 21:34:56.384 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 21:34:58.934 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-12 21:34:58.944 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 21:34:58.988 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 54.3649ms
+2025-11-12 21:34:59.034 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-12 21:34:59.075 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.7907ms
+2025-11-12 21:35:06.208 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 63
+2025-11-12 21:35:06.216 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 21:35:06.231 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 21:35:06.266 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 21:35:06.612 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'InventoryMove'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 21:35:06.613 +03:00 [WRN] No store type was specified for the decimal property 'DiscountTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 21:35:06.613 +03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 21:35:06.613 +03:00 [WRN] No store type was specified for the decimal property 'TaxTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 21:35:06.613 +03:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 21:35:06.613 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 21:35:06.613 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 21:35:06.613 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 21:35:06.613 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 21:35:06.613 +03:00 [WRN] No store type was specified for the decimal property 'StockQty' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 21:35:07.725 +03:00 [INF] Executed DbCommand (140ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Tenats].[Tenat] ([CreatedAt], [CreatedBy], [DeletedAt], [DeletedBy], [IsDeleted], [Name], [PresetName], [UpdatedAt], [UpdatedBy])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-11-12 21:35:07.752 +03:00 [INF] Executing ObjectResult, writing value of type 'BizBuddy.Application.Common.Result`1[[System.Int64, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-12 21:35:07.760 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api) in 1527.2796ms
+2025-11-12 21:35:07.760 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 21:35:07.766 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatTenat - 200 null application/json; charset=utf-8 1558.6768ms
+2025-11-12 21:41:11.420 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 21:41:11.442 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 21:41:11.443 +03:00 [INF] Hosting environment: Development
+2025-11-12 21:41:11.443 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:09:42.484 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 22:09:42.510 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 22:09:42.510 +03:00 [INF] Hosting environment: Development
+2025-11-12 22:09:42.510 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:11:02.675 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'InventoryMove'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:02.702 +03:00 [WRN] No store type was specified for the decimal property 'DiscountTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:02.702 +03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:02.702 +03:00 [WRN] No store type was specified for the decimal property 'TaxTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:02.702 +03:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:02.702 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:02.702 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:02.702 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:02.702 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:02.702 +03:00 [WRN] No store type was specified for the decimal property 'StockQty' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:13.336 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'InventoryMove'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:13.361 +03:00 [WRN] No store type was specified for the decimal property 'DiscountTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:13.361 +03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:13.361 +03:00 [WRN] No store type was specified for the decimal property 'TaxTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:13.361 +03:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:13.361 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:13.361 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:13.361 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:13.361 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:13.361 +03:00 [WRN] No store type was specified for the decimal property 'StockQty' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:11:14.488 +03:00 [INF] Executed DbCommand (91ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-12 22:11:14.496 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-11-12 22:11:14.978 +03:00 [INF] Executed DbCommand (480ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-11-12 22:11:15.228 +03:00 [INF] Executed DbCommand (116ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-11-12 22:11:15.507 +03:00 [INF] Executed DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-12 22:11:15.610 +03:00 [INF] Executed DbCommand (101ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-11-12 22:11:15.727 +03:00 [INF] Executed DbCommand (111ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-11-12 22:11:15.741 +03:00 [INF] Applying migration '20251112191102_tenatNameRevised'.
+2025-11-12 22:11:15.910 +03:00 [INF] Executed DbCommand (138ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE [Tenats].[Tenat];
+2025-11-12 22:11:16.044 +03:00 [INF] Executed DbCommand (131ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Tenats].[Tenatt] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [PresetName] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    CONSTRAINT [PK_Tenatt] PRIMARY KEY ([Id])
+);
+2025-11-12 22:11:16.136 +03:00 [INF] Executed DbCommand (92ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20251112191102_tenatNameRevised', N'9.0.10');
+2025-11-12 22:11:16.367 +03:00 [INF] Executed DbCommand (110ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-11-12 22:21:45.975 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 22:21:45.999 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 22:21:46.000 +03:00 [INF] Hosting environment: Development
+2025-11-12 22:21:46.000 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:22:06.970 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 22:22:06.994 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 22:22:06.994 +03:00 [INF] Hosting environment: Development
+2025-11-12 22:22:06.994 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:22:18.353 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'InventoryMove'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:18.378 +03:00 [WRN] No store type was specified for the decimal property 'DiscountTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:18.378 +03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:18.378 +03:00 [WRN] No store type was specified for the decimal property 'TaxTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:18.378 +03:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:18.378 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:18.379 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:18.379 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:18.379 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:18.379 +03:00 [WRN] No store type was specified for the decimal property 'StockQty' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:34.525 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'InventoryMove'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:34.548 +03:00 [WRN] No store type was specified for the decimal property 'DiscountTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:34.548 +03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:34.548 +03:00 [WRN] No store type was specified for the decimal property 'TaxTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:34.548 +03:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:34.548 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:34.548 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:34.549 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:34.549 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:34.549 +03:00 [WRN] No store type was specified for the decimal property 'StockQty' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:35.382 +03:00 [INF] Executed DbCommand (77ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-12 22:22:35.386 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-11-12 22:22:35.523 +03:00 [INF] Executed DbCommand (136ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-11-12 22:22:35.720 +03:00 [INF] Executed DbCommand (97ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-11-12 22:22:35.952 +03:00 [INF] Executed DbCommand (70ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-12 22:22:36.033 +03:00 [INF] Executed DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-11-12 22:22:36.118 +03:00 [INF] Executed DbCommand (84ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-11-12 22:22:36.121 +03:00 [INF] Applying migration '20251112192218_tenatNameRevised2'.
+2025-11-12 22:22:36.248 +03:00 [INF] Executed DbCommand (113ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE [Tenats].[Tenatt];
+2025-11-12 22:22:36.342 +03:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF SCHEMA_ID(N'Tenants') IS NULL EXEC(N'CREATE SCHEMA [Tenants];');
+2025-11-12 22:22:36.455 +03:00 [INF] Executed DbCommand (113ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Tenants].[Tenantt] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [PresetName] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [UpdatedAt] datetime2 NULL,
+    [UpdatedBy] nvarchar(max) NULL,
+    [DeletedAt] datetime2 NULL,
+    [DeletedBy] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    CONSTRAINT [PK_Tenantt] PRIMARY KEY ([Id])
+);
+2025-11-12 22:22:36.560 +03:00 [INF] Executed DbCommand (105ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20251112192218_tenatNameRevised2', N'9.0.10');
+2025-11-12 22:22:36.762 +03:00 [INF] Executed DbCommand (130ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-11-12 22:22:46.117 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 22:22:46.139 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 22:22:46.139 +03:00 [INF] Hosting environment: Development
+2025-11-12 22:22:46.139 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:22:49.060 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-12 22:22:49.070 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 22:22:49.116 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 56.8539ms
+2025-11-12 22:22:49.260 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-12 22:22:49.300 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.8145ms
+2025-11-12 22:22:56.640 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 63
+2025-11-12 22:22:56.648 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:22:56.666 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 22:22:56.702 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 22:22:57.073 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'InventoryMove'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:57.073 +03:00 [WRN] No store type was specified for the decimal property 'DiscountTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:57.073 +03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:57.073 +03:00 [WRN] No store type was specified for the decimal property 'TaxTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:57.073 +03:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:57.073 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:57.073 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:57.073 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:57.073 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:57.073 +03:00 [WRN] No store type was specified for the decimal property 'StockQty' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:22:58.097 +03:00 [INF] Executed DbCommand (135ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Tenants].[Tenantt] ([CreatedAt], [CreatedBy], [DeletedAt], [DeletedBy], [IsDeleted], [Name], [PresetName], [UpdatedAt], [UpdatedBy])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-11-12 22:22:58.119 +03:00 [INF] Executing ObjectResult, writing value of type 'BizBuddy.Application.Common.Result`1[[System.Int64, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-12 22:22:58.125 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api) in 1458.0063ms
+2025-11-12 22:22:58.126 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:22:58.128 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatTenat - 200 null application/json; charset=utf-8 1488.4822ms
+2025-11-12 22:23:03.637 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 47
+2025-11-12 22:23:03.638 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:23:03.639 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 22:23:06.050 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api) in 2410.3342ms
+2025-11-12 22:23:06.051 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:23:06.052 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Name: FirstName boş bırakılamaz. Severity: Error
+   at BizBuddy.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/vlknn/BizzBuddy/BizBuddy.Application/Common/Behaviors/ValidationBehavior.cs:line 29
+   at BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat(CreateTenatCommand command) in /Users/vlknn/BizzBuddy/BizBuddy.Api/Controllers/Tenats/TenatController.cs:line 14
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-11-12 22:23:06.086 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatTenat - 400 null application/json; charset=utf-8 2449.1788ms
+2025-11-12 22:23:36.222 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 47
+2025-11-12 22:23:36.224 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:23:36.225 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 22:23:50.817 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api) in 14592.4181ms
+2025-11-12 22:23:50.819 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:23:50.819 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Name: FirstName boş bırakılamaz. Severity: Error
+   at BizBuddy.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/vlknn/BizzBuddy/BizBuddy.Application/Common/Behaviors/ValidationBehavior.cs:line 29
+   at BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat(CreateTenatCommand command) in /Users/vlknn/BizzBuddy/BizBuddy.Api/Controllers/Tenats/TenatController.cs:line 14
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-11-12 22:23:50.824 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatTenat - 400 null application/json; charset=utf-8 14601.9858ms
+2025-11-12 22:25:22.167 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 47
+2025-11-12 22:25:22.170 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:25:22.171 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 22:25:25.210 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api) in 3038.5299ms
+2025-11-12 22:25:25.211 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:25:25.212 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Name: FirstName boş bırakılamaz. Severity: Error
+   at BizBuddy.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/vlknn/BizzBuddy/BizBuddy.Application/Common/Behaviors/ValidationBehavior.cs:line 29
+   at BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat(CreateTenatCommand command) in /Users/vlknn/BizzBuddy/BizBuddy.Api/Controllers/Tenats/TenatController.cs:line 14
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-11-12 22:25:25.214 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatTenat - 400 null application/json; charset=utf-8 3047.6453ms
+2025-11-12 22:25:37.547 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 22:25:37.572 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 22:25:37.572 +03:00 [INF] Hosting environment: Development
+2025-11-12 22:25:37.572 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:25:39.226 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 47
+2025-11-12 22:25:39.241 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 22:25:39.249 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:25:39.263 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 22:25:39.306 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 22:25:39.612 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'InventoryMove'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:25:39.613 +03:00 [WRN] No store type was specified for the decimal property 'DiscountTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:25:39.613 +03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:25:39.613 +03:00 [WRN] No store type was specified for the decimal property 'TaxTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:25:39.613 +03:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:25:39.613 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:25:39.613 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:25:39.613 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:25:39.614 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:25:39.614 +03:00 [WRN] No store type was specified for the decimal property 'StockQty' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-12 22:25:40.661 +03:00 [INF] Executed DbCommand (115ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Tenants].[Tenantt] ([CreatedAt], [CreatedBy], [DeletedAt], [DeletedBy], [IsDeleted], [Name], [PresetName], [UpdatedAt], [UpdatedBy])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-11-12 22:25:40.688 +03:00 [INF] Executing ObjectResult, writing value of type 'BizBuddy.Application.Common.Result`1[[System.Int64, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-12 22:25:40.701 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api) in 1436.6337ms
+2025-11-12 22:25:40.703 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:25:40.707 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatTenat - 200 null application/json; charset=utf-8 1482.8085ms
+2025-11-12 22:27:25.542 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 22:27:25.564 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 22:27:25.564 +03:00 [INF] Hosting environment: Development
+2025-11-12 22:27:25.564 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:27:41.562 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 47
+2025-11-12 22:27:41.573 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 22:27:41.581 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:27:41.594 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 22:27:41.631 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 22:27:46.667 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api) in 5071.2786ms
+2025-11-12 22:27:46.674 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:27:46.675 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: FirstName boş bırakılamaz.
+   at BizBuddy.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/vlknn/BizzBuddy/BizBuddy.Application/Common/Behaviors/ValidationBehavior.cs:line 30
+   at BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat(CreateTenatCommand command) in /Users/vlknn/BizzBuddy/BizBuddy.Api/Controllers/Tenats/TenatController.cs:line 14
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-11-12 22:27:46.741 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatTenat - 500 null application/json; charset=utf-8 5179.2635ms
+2025-11-12 22:29:00.663 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 22:29:00.686 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 22:29:00.686 +03:00 [INF] Hosting environment: Development
+2025-11-12 22:29:00.686 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:29:13.494 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 22:29:13.521 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 22:29:13.521 +03:00 [INF] Hosting environment: Development
+2025-11-12 22:29:13.521 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:29:14.542 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-12 22:29:14.551 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 22:29:14.598 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 56.7835ms
+2025-11-12 22:29:14.643 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-12 22:29:14.685 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.9492ms
+2025-11-12 22:29:16.229 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 47
+2025-11-12 22:29:16.236 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:29:16.253 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 22:29:16.287 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 22:30:41.104 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 22:30:41.126 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 22:30:41.126 +03:00 [INF] Hosting environment: Development
+2025-11-12 22:30:41.126 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:30:46.808 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 22:30:46.831 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 22:30:46.831 +03:00 [INF] Hosting environment: Development
+2025-11-12 22:30:46.831 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:30:48.244 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-12 22:30:48.253 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 22:30:48.299 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 55.6753ms
+2025-11-12 22:30:48.346 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-12 22:30:48.390 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.7283ms
+2025-11-12 22:30:51.223 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 47
+2025-11-12 22:30:51.231 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:30:51.249 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 22:30:51.286 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 22:39:07.659 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 22:39:07.682 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 22:39:07.682 +03:00 [INF] Hosting environment: Development
+2025-11-12 22:39:07.682 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:39:23.866 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-12 22:39:23.875 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 22:39:23.923 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 58.0549ms
+2025-11-12 22:39:23.970 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-12 22:39:24.009 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.4395ms
+2025-11-12 22:39:31.109 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 47
+2025-11-12 22:39:31.117 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:39:31.137 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 22:39:31.176 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 22:44:57.186 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 22:44:57.210 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 22:44:57.210 +03:00 [INF] Hosting environment: Development
+2025-11-12 22:44:57.210 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:44:58.412 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-12 22:44:58.420 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 22:44:58.465 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 53.3038ms
+2025-11-12 22:44:58.511 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-12 22:44:58.551 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.61ms
+2025-11-12 22:44:59.835 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 47
+2025-11-12 22:44:59.843 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:44:59.861 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 22:44:59.897 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 22:46:47.735 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api) in 107892.4677ms
+2025-11-12 22:46:47.737 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:46:47.764 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatTenat - 400 null application/json 107951.1649ms
+2025-11-12 22:57:21.653 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 22:57:21.678 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 22:57:21.678 +03:00 [INF] Hosting environment: Development
+2025-11-12 22:57:21.678 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 22:57:24.924 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/ - null null
+2025-11-12 22:57:24.931 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 22:57:24.939 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/ - 301 0 null 16.4751ms
+2025-11-12 22:57:24.947 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-12 22:57:24.983 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 35.9394ms
+2025-11-12 22:57:24.992 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui.css - null null
+2025-11-12 22:57:24.992 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - null null
+2025-11-12 22:57:24.993 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - null null
+2025-11-12 22:57:25.008 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-12 22:57:25.008 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-12 22:57:25.009 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-12 22:57:25.009 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - 200 230280 text/javascript 16.3873ms
+2025-11-12 22:57:25.009 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui.css - 200 152034 text/css 16.9402ms
+2025-11-12 22:57:25.009 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - 200 1456682 text/javascript 16.6182ms
+2025-11-12 22:57:25.086 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-12 22:57:25.104 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - null null
+2025-11-12 22:57:25.104 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-12 22:57:25.104 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - 200 628 image/png 0.3953ms
+2025-11-12 22:57:25.126 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.6274ms
+2025-11-12 22:57:30.816 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 42
+2025-11-12 22:57:30.822 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:57:30.838 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 22:57:30.873 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 22:57:30.889 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api) in 49.9624ms
+2025-11-12 22:57:30.890 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 22:57:30.897 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatTenat - 400 null application/json 80.8136ms
+2025-11-12 23:03:20.940 +03:00 [INF] Application is shutting down...
+O.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 22:58:12.350 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 22:59:11.555 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 22:59:21.461 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:00:11.205 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:01:51.129 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:02:26.900 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:03:30.597 +03:00 [INF] Now listening on: http://localhost:5140
+2025-11-12 23:03:30.623 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 23:03:30.623 +03:00 [INF] Hosting environment: Development
+2025-11-12 23:03:30.623 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 23:03:33.137 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-11-12 23:03:33.145 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 23:03:33.188 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 51.8009ms
+2025-11-12 23:03:33.273 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-11-12 23:03:33.311 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.3682ms
+2025-11-12 23:03:38.617 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5140/CreatTenat - application/json 42
+2025-11-12 23:03:38.624 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 23:03:38.639 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 23:03:38.672 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 23:03:38.687 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api) in 46.2742ms
+2025-11-12 23:03:38.687 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 23:03:38.695 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5140/CreatTenat - 400 null application/json 78.1901ms
+2025-11-12 23:05:37.542 +03:00 [INF] Now listening on: http://localhost:5000
+2025-11-12 23:05:37.568 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 23:05:37.568 +03:00 [INF] Hosting environment: Development
+2025-11-12 23:05:37.568 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 23:05:45.461 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-11-12 23:05:45.469 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 23:05:45.475 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 301 0 null 15.0652ms
+2025-11-12 23:05:45.483 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/index.html - null null
+2025-11-12 23:05:45.517 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/index.html - 200 null text/html;charset=utf-8 34.2576ms
+2025-11-12 23:05:45.523 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger-ui.css - null null
+2025-11-12 23:05:45.523 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger-ui-bundle.js - null null
+2025-11-12 23:05:45.524 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger-ui-standalone-preset.js - null null
+2025-11-12 23:05:45.535 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-12 23:05:45.535 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-12 23:05:45.535 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-12 23:05:45.536 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger-ui-bundle.js - 200 1456682 text/javascript 12.9161ms
+2025-11-12 23:05:45.536 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger-ui-standalone-preset.js - 200 230280 text/javascript 12.6234ms
+2025-11-12 23:05:45.536 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger-ui.css - 200 152034 text/css 12.9606ms
+2025-11-12 23:05:45.605 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-11-12 23:05:45.614 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon-32x32.png - null null
+2025-11-12 23:05:45.614 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-12 23:05:45.615 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon-32x32.png - 200 628 image/png 0.9287ms
+2025-11-12 23:05:45.643 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.4462ms
+2025-11-12 23:12:46.892 +03:00 [INF] Application is shutting down...
+O.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:06:15.447 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:06:32.563 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:06:55.141 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:07:09.057 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:07:30.818 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:07:39.355 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:08:22.905 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:09:05.821 +03:00 [INF] Now listening on: http://localhost:8080
+2025-11-12 23:09:05.845 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 23:09:05.845 +03:00 [INF] Hosting environment: Development
+2025-11-12 23:09:05.846 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 23:09:08.599 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/ - null null
+2025-11-12 23:09:08.607 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 23:09:08.613 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/ - 301 0 null 14.8083ms
+2025-11-12 23:09:08.619 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/index.html - null null
+2025-11-12 23:09:08.653 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/index.html - 200 null text/html;charset=utf-8 33.9599ms
+2025-11-12 23:09:08.659 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger-ui-bundle.js - null null
+2025-11-12 23:09:08.659 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger-ui-standalone-preset.js - null null
+2025-11-12 23:09:08.659 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger-ui.css - null null
+2025-11-12 23:09:08.670 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-12 23:09:08.670 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-12 23:09:08.670 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-12 23:09:08.671 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger-ui-bundle.js - 200 1456682 text/javascript 11.9654ms
+2025-11-12 23:09:08.671 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger-ui-standalone-preset.js - 200 230280 text/javascript 11.9275ms
+2025-11-12 23:09:08.671 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger-ui.css - 200 152034 text/css 11.917ms
+2025-11-12 23:09:08.741 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2025-11-12 23:09:08.750 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/favicon-32x32.png - null null
+2025-11-12 23:09:08.750 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-12 23:09:08.750 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/favicon-32x32.png - 200 628 image/png 0.505ms
+2025-11-12 23:09:08.779 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.2982ms
+2025-11-12 23:09:13.721 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/CreatTenat - application/json 42
+2025-11-12 23:09:13.725 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 23:09:13.743 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 23:09:13.774 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 23:09:13.789 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api) in 44.3707ms
+2025-11-12 23:09:13.790 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 23:09:13.798 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/CreatTenat - 400 null application/json 77.4372ms
+2025-11-12 23:09:21.274 +03:00 [INF] Application is shutting down...
+2025-11-12 23:09:37.643 +03:00 [INF] Now listening on: http://localhost:8080
+2025-11-12 23:09:37.668 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 23:09:37.668 +03:00 [INF] Hosting environment: Development
+2025-11-12 23:09:37.668 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 23:09:51.098 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5140: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:09:58.570 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:8080: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:10:15.832 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:8080: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:10:54.387 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:8080: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:11:05.358 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:8080: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:11:45.368 +03:00 [INF] Now listening on: http://localhost:5099
+2025-11-12 23:11:45.394 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 23:11:45.394 +03:00 [INF] Hosting environment: Development
+2025-11-12 23:11:45.394 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 23:12:11.787 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5099: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:12:54.597 +03:00 [INF] Now listening on: http://localhost:5099
+2025-11-12 23:12:54.624 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 23:12:54.624 +03:00 [INF] Hosting environment: Development
+2025-11-12 23:12:54.624 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 23:13:30.062 +03:00 [INF] Application is shutting down...
+2025-11-12 23:13:47.546 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Dynamic port binding is not supported when binding to localhost. You must either bind to 127.0.0.1:0 or [::1]:0, or both.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions..ctor(Int32 port)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.ParseAddress(String address, Boolean& https)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:13:58.879 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Dynamic port binding is not supported when binding to localhost. You must either bind to 127.0.0.1:0 or [::1]:0, or both.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions..ctor(Int32 port)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.ParseAddress(String address, Boolean& https)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-11-12 23:14:11.849 +03:00 [INF] Now listening on: http://localhost:8080
+2025-11-12 23:14:11.874 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 23:14:11.874 +03:00 [INF] Hosting environment: Development
+2025-11-12 23:14:11.874 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 23:14:39.512 +03:00 [INF] Application is shutting down...
+2025-11-12 23:14:47.023 +03:00 [INF] Now listening on: http://localhost:8080
+2025-11-12 23:14:47.047 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 23:14:47.047 +03:00 [INF] Hosting environment: Development
+2025-11-12 23:14:47.047 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 23:15:35.352 +03:00 [INF] Now listening on: http://localhost:8080
+2025-11-12 23:15:35.377 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 23:15:35.377 +03:00 [INF] Hosting environment: Development
+2025-11-12 23:15:35.377 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-11-12 23:15:35.452 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/index.html - null null
+2025-11-12 23:15:35.460 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-11-12 23:15:35.500 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/index.html - 200 null text/html;charset=utf-8 49.5305ms
+2025-11-12 23:15:35.586 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2025-11-12 23:15:35.624 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.8256ms
+2025-11-12 23:15:44.808 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/CreatTenat - application/json 42
+2025-11-12 23:15:44.819 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 23:15:44.837 +03:00 [INF] Route matched with {action = "CreatTenat", controller = "Tenat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[System.Int64]]] CreatTenat(BizBuddy.Application.Tenat.Commands.CreateTenat.CreateTenatCommand) on controller BizBuddy.Api.Controllers.Tenats.TenatController (BizBuddy.Api).
+2025-11-12 23:15:44.871 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-11-12 23:15:44.886 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api) in 47.4357ms
+2025-11-12 23:15:44.886 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Tenats.TenatController.CreatTenat (BizBuddy.Api)'
+2025-11-12 23:15:44.894 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/CreatTenat - 400 null application/json 85.668ms

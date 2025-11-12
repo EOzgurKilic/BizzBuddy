@@ -9,6 +9,7 @@ namespace BizBuddy.Domain.Entities.CustomFieldDefs;
 
 public class CustomFieldDef : BaseEntityTenant
 {
+    public int Id { get; set; }
     public string EntityType { get; set; } // "customer", "product", "order", "appointment", "staff"
     public string Key { get; set; }        // Örn: "skinType"
     public string Label { get; set; }      // Ekranda gözükecek ad: "Cilt Tipi"

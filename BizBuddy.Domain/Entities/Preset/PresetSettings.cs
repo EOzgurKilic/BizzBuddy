@@ -8,7 +8,7 @@ namespace BizBuddy.Domain.Entities.Preset;
 
 public class PresetSettings : BaseEntity
 {
-    public long Id { get; set; }
+    public int Id { get; set; }
     public List<string> EnabledModules { get; set; }
     public List<string> MenuOrder { get; set; }
     public string? Notes { get; set; }

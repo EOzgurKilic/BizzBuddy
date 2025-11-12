@@ -9,7 +9,7 @@ namespace BizBuddy.Domain.Entities.RoleAssignment;
 [Table(nameof(Role), Schema = "RoleAssignment")]
 public class Role : BaseEntityTenant
 {
-    public long Id { get; set; }
+    public int Id { get; set; }
     public string RoleName { get; set; }
     public string? Description { get; set; }
 
