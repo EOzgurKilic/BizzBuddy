@@ -9,7 +9,6 @@ namespace BizBuddy.Domain.Entities.RoleAssignment;
 
 public class Branding : BaseEntity
 {
-
     public long Id { get; set; }
     public string BrandName { get; set; }
     public string? LogoUrl { get; set; }
@@ -18,7 +17,7 @@ public class Branding : BaseEntity
     public string? Surface { get; set; }
     public string? Shadow { get; set; }
     public string? FontFamily { get; set; }
-    [Column(TypeName = "jsonb")]
+
     public DarkModeSettings? DarkMode { get; set; }
 }
 
@@ -29,4 +28,3 @@ public sealed class DarkModeSettings
     public string? Surface { get; set; }
     public string? Text { get; set; }
 }
-

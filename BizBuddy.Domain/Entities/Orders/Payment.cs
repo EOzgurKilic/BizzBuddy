@@ -11,13 +11,14 @@ public class Payment : BaseEntityTenant
 {
 
     public int Id { get; set; }
-    public Order OrderId { get; set; }
+
+    public int OrderId { get; set; }
+    public Order Order { get; set; }
+
     public decimal Amount { get; set; }
-
-    public string Method { get; set; } // cash|card|transfer|mixed
+    public string Method { get; set; } 
     public string? ProviderRef { get; set; }
-    public DateTime PaidAt { get; set; }
-
+    public DateTime PaidAt { get; set; } = DateTime.UtcNow;
     public string? Notes { get; set; }
 
 }

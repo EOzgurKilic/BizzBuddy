@@ -1,6 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using BizBuddy.Domain.Common;
+using BizBuddy.Domain.Entities.RoleAssignment;
 using BizBuddy.Domain.Entities.Tenats;
 
 namespace BizBuddy.Domain.Entities.Account;
@@ -17,7 +18,7 @@ public class User : BaseEntityTenant
     public string? Phone { get; set; }
 
     public string PasswordHash { get; set; }
-
-    public string Role { get; set; }
+    public long RoleId { get; set; }
+    public Role Role { get; set; }
 
 }

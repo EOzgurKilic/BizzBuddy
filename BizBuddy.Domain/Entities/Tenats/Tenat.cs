@@ -9,6 +9,6 @@ namespace BizBuddy.Domain.Entities.Tenats;
 public class Tenat : BaseEntity
 {
     public long Id { get; set; }
-    public string Name { get; set; }
+    public string Name { get; set; } 
     public string? PresetName { get; set; }
 }

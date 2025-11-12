@@ -12,6 +12,7 @@ using BizBuddy.Domain.Entities.Preset;
 using BizBuddy.Domain.Entities.Tenats;
 using BizBuddy.Domain.Entities.Products;
 using BizBuddy.Domain.Entities.RoleAssignment;
+using BizBuddy.Domain.Entities.Staff;
 
 namespace BizBuddy.Infrastructure.Persistence;
 
@@ -34,15 +35,11 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
     public DbSet<Payment> Payment { get; set; }
     public DbSet<PresetSettings> PresetSettings { get; set; }
     public DbSet<TenantSettings> TenantSettings { get; set; }
-        public DbSet<Product> Product { get; set; }
-
+    public DbSet<Product> Product { get; set; }
     public DbSet<Branding> Branding { get; set; }
-
     public DbSet<Role> Role { get; set; }
-
-    public DbSet<TenantSettings> TenantSettings { get; set; }
-
-    public DbSet<TenantSettings> TenantSettings { get; set; }
+    public DbSet<Employee> Employee { get; set; }
+    public DbSet<Tenat> Tenat { get; set; }
 
 
 

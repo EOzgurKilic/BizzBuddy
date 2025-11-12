@@ -10,13 +10,8 @@ namespace BizBuddy.Domain.Entities.RoleAssignment;
 public class Role : BaseEntityTenant
 {
     public long Id { get; set; }
-    public User User { get; set; }
-    public long UserId { get; set; }
-
     public string RoleName { get; set; }
+    public string? Description { get; set; }
 
-    public DateTime? EffectiveFrom { get; set; }
-
-    public DateTime? EffectiveTo { get; set; }
-
+    public ICollection<User> Users { get; set; } = new List<User>();
 }
