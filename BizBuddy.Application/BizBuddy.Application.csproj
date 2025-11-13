@@ -15,8 +15,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Categories/Queries/" />
+    <Folder Include="Customers/Queries/" />
+    <Folder Include="CustomFieldDefs/Queries/" />
     <Folder Include="Mapping/" />
     <Folder Include="Tenat/Queries/" />
+    <Folder Include="Users/Queries/" />
   </ItemGroup>
 
   <PropertyGroup>

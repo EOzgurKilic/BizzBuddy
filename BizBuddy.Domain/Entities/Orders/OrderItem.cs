@@ -23,7 +23,6 @@ public class OrderItem : BaseEntityTenant
     public decimal Qty { get; set; }
     public decimal UnitPrice { get; set; }
 
-
     public decimal LineTotal => Qty * UnitPrice;
 
     public string? Notes { get; set; }
