@@ -3,8 +3,6 @@ using FluentValidation;
 
 namespace BizBuddy.Application.Tenat.Commands.CreateTenat;
 
-
-
 public class CreatePersonCommandValidator : AbstractValidator<CreateTenatCommand>
 {
     public CreatePersonCommandValidator()
