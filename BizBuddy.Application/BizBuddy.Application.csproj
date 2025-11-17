@@ -22,6 +22,9 @@
     <Folder Include="Mapping/" />
     <Folder Include="Orders/Queries/" />
     <Folder Include="Preset/Queries/" />
+    <Folder Include="Products/Queries/" />
+    <Folder Include="RoleAssignment/Queries/" />
+    <Folder Include="Staff/Queries/" />
     <Folder Include="Tenat/Queries/" />
     <Folder Include="Users/Queries/" />
   </ItemGroup>
