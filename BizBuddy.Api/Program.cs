@@ -64,7 +64,9 @@ app.UseExceptionHandler(appError =>
 
 app.UseHttpsRedirection();
 
- app.UseMiddleware<ExceptionMiddleware>();
+
+
+app.UseMiddleware<ExceptionMiddleware>();
 
 if (app.Environment.IsDevelopment())
 {
