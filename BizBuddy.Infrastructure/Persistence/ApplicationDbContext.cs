@@ -76,7 +76,14 @@ namespace BizBuddy.Infrastructure.Persistence
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Branding>().OwnsOne(b => b.DarkMode);
-
+            
+            // 🔽 NEW: Appointment → Customer FK config
+            modelBuilder.Entity<Appointment>()
+                .HasOne(a => a.Customer)          // navigation on Appointment
+                .WithMany(c => c.Appointments)    // navigation collection on Customer
+                .HasForeignKey(a => a.CustomerId) // FK property on Appointment
+                .OnDelete(DeleteBehavior.Restrict);
+            
             foreach (var entityType in modelBuilder.Model.GetEntityTypes())
             {
                 if (typeof(BaseEntity).IsAssignableFrom(entityType.ClrType))
