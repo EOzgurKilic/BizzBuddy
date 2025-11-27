@@ -1,6 +1,7 @@
 using BizBuddy.Application.Common;
 using BizBuddy.Application.InventoryMoves.Commands.CreateInventoryMoves;
 using BizBuddy.Application.InventoryMoves.Commands.DeleteInventoryMoves;
+using BizBuddy.Application.InventoryMoves.Commands.UpdateInventoryMoves;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,11 +15,23 @@ namespace BizBuddy.Api.Controllers.InventoryMoves
         {
             return await Mediator.Send(command);
         }
-        
+
         [HttpDelete("DeleteInventoryMove/{id}")]
         public async Task<ActionResult<Result>> DeleteInventoryMove(long id)
         {
             return await Mediator.Send(new DeleteInventoryMovesCommand(id));
         }
+
+        [HttpPut("UpdateInventoryMoves/{id}")]
+        public async Task<ActionResult<Result>> InventoryMovesUpdate(long id, UpdateInventoryMovesCommand command)
+        {
+            if (id != command.Id)
+            {
+                return BadRequest();
+            }
+
+            return await Mediator.Send(command);
+        }
+        
     }
 }

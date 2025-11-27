@@ -1,6 +1,7 @@
 using BizBuddy.Application.Common;
 using BizBuddy.Application.Orders.Commands.CreateOrder;
 using BizBuddy.Application.Orders.Commands.DeleteOrder;
+using BizBuddy.Application.Orders.Commands.UpdateOrder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,6 +20,16 @@ namespace BizBuddy.Api.Controllers.Orders
         public async Task<ActionResult<Result>> DeleteOrder(long id)
         {
             return await Mediator.Send(new DeleteOrderCommand(id));
+        }
+          [HttpPut("UpdateOrder/{id}")]
+        public async Task<ActionResult<Result>> OrderUpdate(long id, UpdateOrderCommand command)
+        {
+            if (id != command.Id)
+            {
+                return BadRequest();
+            }
+
+            return await Mediator.Send(command);
         }
     }
 }

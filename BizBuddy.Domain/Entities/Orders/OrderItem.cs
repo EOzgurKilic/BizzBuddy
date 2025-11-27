@@ -10,7 +10,7 @@ namespace BizBuddy.Domain.Entities.Orders;
 
 public class OrderItem : BaseEntityTenant
 {
-   public int Id { get; set; }
+    public int Id { get; set; }
 
     // Order ilişkisi
     public int OrderId { get; set; }

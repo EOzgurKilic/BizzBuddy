@@ -34,7 +34,4 @@ public class CreateCategoriesCommandHandler(IApplicationDbContext context)
         return Result<long>.Success(entity.Id);
     }
 
-
-
-
 }

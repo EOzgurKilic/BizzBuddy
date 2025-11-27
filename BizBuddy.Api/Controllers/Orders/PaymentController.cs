@@ -1,6 +1,7 @@
 using BizBuddy.Application.Common;
 using BizBuddy.Application.Orders.Commands.CreatePayment;
 using BizBuddy.Application.Orders.Commands.DeletePayment;
+using BizBuddy.Application.Orders.Commands.UpdatePayment;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,10 +15,20 @@ namespace BizBuddy.Api.Controllers.Orders
         {
             return await Mediator.Send(command);
         }
-         [HttpDelete("DeletePayment/{id}")]
+        [HttpDelete("DeletePayment/{id}")]
         public async Task<ActionResult<Result>> DeletePayment(long id)
         {
             return await Mediator.Send(new DeletePaymentCommand(id));
+        }
+        [HttpPut("UpdatePayment/{id}")]
+        public async Task<ActionResult<Result>> PaymentUpdate(long id, UpdatePaymentCommand command)
+        {
+            if (id != command.Id)
+            {
+                return BadRequest();
+            }
+
+            return await Mediator.Send(command);
         }
     }
 }
