@@ -33,9 +33,11 @@ public class Result<T> : Result
     public static Result<T> Success(T data, string message = "Success")
         => new Result<T>(data, true, message);
 
-    public static Result<T> Failure(string message = "Error", string? exception = null)
+    // 👇 base Result.Failure(...)'ı BİLEREK gizliyoruz
+    public new static Result<T> Failure(string message = "Error", string? exception = null)
         => new Result<T>(default, false, message, exception);
 
-    public static Result<T> Failure(T? data, string message = "Error", string? exception = null)
+    // 👇 overload olduğu için buna da new ekliyoruz (temizlik)
+    public new static Result<T> Failure(T? data, string message = "Error", string? exception = null)
         => new Result<T>(data, false, message, exception);
 }

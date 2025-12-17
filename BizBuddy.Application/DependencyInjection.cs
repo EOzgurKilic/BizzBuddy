@@ -20,9 +20,14 @@ namespace BizBuddy.Application
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
             // AutoMapper
-            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+// "AddAutoMapper" metodunu çağırmıyoruz, direkt kütüphanenin kendisini kuruyoruz
+var mapperConfig = new AutoMapper.MapperConfiguration(cfg =>
+{
+    cfg.AddMaps(System.Reflection.Assembly.GetExecutingAssembly());
+});
 
-            // FluentValidation
+AutoMapper.IMapper mapper = mapperConfig.CreateMapper();
+services.AddSingleton(mapper);            // FluentValidation
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
             
 

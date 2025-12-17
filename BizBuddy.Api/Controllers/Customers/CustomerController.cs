@@ -2,6 +2,7 @@ using BizBuddy.Application.Common;
 using BizBuddy.Application.Customers.Commands.CreateCustomers;
 using BizBuddy.Application.Customers.Commands.DeleteCustomers;
 using BizBuddy.Application.Customers.Commands.UpdateCustomers;
+using BizBuddy.Application.Customers.Queries.GetCustomerDetail;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -31,6 +32,11 @@ namespace BizBuddy.Api.Controllers.Customers
             }
 
             return await Mediator.Send(command);
+        }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Result<CustomersDto>>> GetCustomers(int id)
+        {
+            return await Mediator.Send(new GetCustomerDetailQuery(id));
         }
     }
 }

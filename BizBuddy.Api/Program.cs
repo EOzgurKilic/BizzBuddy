@@ -1,5 +1,6 @@
 using BizBuddy.Application;
 using BizBuddy.Application.Common.Interfaces;
+using BizBuddy.Application.Mapping;
 using BizBuddy.Infrastructure.Persistence;
 using MediatR;
 using Microsoft.AspNetCore.Diagnostics;
@@ -24,7 +25,6 @@ builder.Services.AddSwaggerGen();
 
 // Application services (MediatR, AutoMapper, FluentValidation)
 builder.Services.AddApplication();
-
 // DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

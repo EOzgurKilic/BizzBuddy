@@ -23,39 +23,27 @@ public class ExceptionMiddleware
         }
     }
 
-    private static Task HandleExceptionAsync(HttpContext context, Exception exception)
-    {
-        context.Response.ContentType = "application/json";
-        
-        // Hata türüne göre HTTP durum kodunu belirle
-        var statusCode = StatusCodes.Status500InternalServerError;
-        var message = "Internal Server Error.";
-        var errors = new Dictionary<string, string[]>();
+   private static Task HandleExceptionAsync(HttpContext context, Exception exception)
+{
+    context.Response.ContentType = "application/json";
+    var statusCode = StatusCodes.Status500InternalServerError;
+    var message = exception.Message; // "Internal Server Error" yerine hatayı yaz
+    
+    // Eğer iç hata varsa onu da yakalayalım
+    var detail = exception.InnerException?.Message; 
 
-        if (exception is ValidationException validationException)
-        {
-            statusCode = StatusCodes.Status400BadRequest;
-            message = "Validation Failed.";
-            
-            // FluentValidation hatalarını gruplayıp daha temiz bir formata dönüştür
-            errors = validationException.Errors
-                .GroupBy(x => x.PropertyName)
-                .ToDictionary(
-                    g => g.Key,
-                    g => g.Select(x => x.ErrorMessage).ToArray()
-                );
-        }
-        
-        context.Response.StatusCode = statusCode;
+    // ... diğer kodlar (ValidationException kontrolü vs.) ...
 
-        // Yanıt gövdesini oluştur
-        var result = JsonSerializer.Serialize(new 
-        { 
-            statusCode, 
-            message, 
-            errors 
-        });
+    context.Response.StatusCode = statusCode;
 
-        return context.Response.WriteAsync(result);
-    }
+    var result = JsonSerializer.Serialize(new 
+    { 
+        statusCode, 
+        message, 
+        detail, // Detayı buraya ekle
+        stackTrace = exception.StackTrace // Hangi satırda koptuğunu gösterir
+    });
+
+    return context.Response.WriteAsync(result);
+}
 }
