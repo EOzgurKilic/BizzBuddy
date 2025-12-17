@@ -7,9 +7,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace BizBuddy.Application.Customers.Queries.GetCustomerDetail;
-
-
-public record GetCustomerDetailQuery(long Id) : IRequest<Result<CustomersDto>>;
+public record GetCustomerDetailQuery(int Id) : IRequest<Result<CustomersDto>>;
 public class GetCustomerDetailQueryHandler(IApplicationDbContext context, IMapper mapper)
     : IRequestHandler<GetCustomerDetailQuery, Result<CustomersDto>>
 {

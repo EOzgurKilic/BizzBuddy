@@ -1,7 +1,10 @@
 using BizBuddy.Application.Common;
+using BizBuddy.Application.Common.Models;
 using BizBuddy.Application.CustomFieldDefs.Commands.CreateCustomFieldDefs;
 using BizBuddy.Application.CustomFieldDefs.Commands.DeleteCustomFieldDefs;
 using BizBuddy.Application.CustomFieldDefs.Commands.UpdateCustomFieldDefs;
+using BizBuddy.Application.CustomFieldDefs.Queries.GetCustomFieldDefsDetail;
+using BizBuddy.Application.CustomFieldDefs.Queries.GetGetCustomFieldDefsWithPagination;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -31,6 +34,17 @@ namespace BizBuddy.Api.Controllers.CustomFieldDefs
             }
 
             return await Mediator.Send(command);
+        }
+          [HttpGet("{id}")]
+        public async Task<ActionResult<Result<CustomFieldDefsDetailDto>>> GetCustomFieldDefs(int id)
+        {
+            return await Mediator.Send(new GetCustomFieldDefsDetailQuery(id));
+        }
+        [HttpGet]
+        public async Task<ActionResult<Result<PaginatedList<CustomFieldDefsListDto>>>> GetCustomFieldDefsWithPagination([FromQuery] GetGetCustomFieldDefsWithPaginationQuery query)
+        {
+
+            return await Mediator.Send(query);
         }
     }
 }

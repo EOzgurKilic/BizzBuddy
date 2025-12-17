@@ -19,6 +19,8 @@
     <Folder Include="Customers/Queries/GetCustomerDetail/" />
     <Folder Include="Customers/Queries/GetCustomersWithPagination/" />
     <Folder Include="CustomFieldDefs/Queries/" />
+    <Folder Include="CustomFieldDefs/Queries/GetCustomFieldDefsDetail/" />
+    <Folder Include="CustomFieldDefs/Queries/GetGetCustomFieldDefsWithPagination/" />
     <Folder Include="InventoryMoves/Queries/" />
     <Folder Include="Mapping/" />
     <Folder Include="Orders/Queries/" />

@@ -41,7 +41,7 @@ namespace BizBuddy.Api.Controllers.Customers
         {
             return await Mediator.Send(new GetCustomerDetailQuery(id));
         }
-        [HttpGet("List")]
+        [HttpGet]
         public async Task<ActionResult<Result<PaginatedList<GetCustomerListDto>>>> GetCustomersWithPagination([FromQuery] GetCustomersWithPaginationQuery query)
         {
 
