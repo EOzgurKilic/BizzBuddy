@@ -1276,3 +1276,289 @@ ORDER BY [c0].[Id], [o0].[Id]
 2025-12-17 13:50:37.690 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomers (BizBuddy.Api) in 1503.5557ms
 2025-12-17 13:50:37.693 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomers (BizBuddy.Api)'
 2025-12-17 13:50:37.697 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/Customer/1 - 200 null application/json; charset=utf-8 1551.1267ms
+2025-12-17 14:01:21.591 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5140/api/Customer/DeleteCustomer/7 - null null
+2025-12-17 14:01:21.600 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Customers.CustomerController.DeleteCustomer (BizBuddy.Api)'
+2025-12-17 14:01:21.616 +03:00 [INF] Route matched with {action = "DeleteCustomer", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result]] DeleteCustomer(Int64) on controller BizBuddy.Api.Controllers.Customers.CustomerController (BizBuddy.Api).
+2025-12-17 14:01:22.467 +03:00 [INF] Executed DbCommand (89ms) [Parameters=[@__request_Id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Address], [c].[CreatedAt], [c].[CreatedBy], [c].[DeletedAt], [c].[DeletedBy], [c].[Email], [c].[IsDeleted], [c].[Name], [c].[Notes], [c].[Password], [c].[Phone], [c].[Tags], [c].[TenantId], [c].[UpdatedAt], [c].[UpdatedBy]
+FROM [Customers].[Customer] AS [c]
+WHERE [c].[IsDeleted] = CAST(0 AS bit) AND CAST([c].[Id] AS bigint) = @__request_Id_0
+2025-12-17 14:01:22.470 +03:00 [INF] Executing ObjectResult, writing value of type 'BizBuddy.Application.Common.Result'.
+2025-12-17 14:01:22.478 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Customers.CustomerController.DeleteCustomer (BizBuddy.Api) in 860.9642ms
+2025-12-17 14:01:22.478 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Customers.CustomerController.DeleteCustomer (BizBuddy.Api)'
+2025-12-17 14:01:22.478 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5140/api/Customer/DeleteCustomer/7 - 200 null application/json; charset=utf-8 888.4328ms
+2025-12-17 14:03:02.834 +03:00 [INF] Application is shutting down...
+2025-12-17 14:04:01.447 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 14:04:01.476 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 14:04:01.476 +03:00 [INF] Hosting environment: Development
+2025-12-17 14:04:01.476 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 14:04:02.597 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 14:04:02.609 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 14:04:02.616 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 404 0 null 19.7809ms
+2025-12-17 14:04:02.635 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5140/index.html, Response status code: 404
+2025-12-17 14:04:04.522 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 14:04:04.589 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 67.6232ms
+2025-12-17 14:04:04.635 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 14:04:04.697 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 62.5985ms
+2025-12-17 14:04:19.830 +03:00 [INF] Application is shutting down...
+2025-12-17 14:04:23.295 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 14:04:23.321 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 14:04:23.322 +03:00 [INF] Hosting environment: Development
+2025-12-17 14:04:23.322 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 14:04:24.169 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 14:04:24.183 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 14:04:24.190 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 404 0 null 21.8076ms
+2025-12-17 14:04:24.206 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5140/index.html, Response status code: 404
+2025-12-17 14:04:26.831 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 14:04:26.869 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 37.7085ms
+2025-12-17 14:04:26.901 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 14:04:26.957 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 56.4752ms
+2025-12-17 14:05:15.702 +03:00 [INF] Application is shutting down...
+2025-12-17 14:05:19.384 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 14:05:19.409 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 14:05:19.409 +03:00 [INF] Hosting environment: Development
+2025-12-17 14:05:19.409 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 14:05:22.502 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 14:05:22.520 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 14:05:22.557 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 55.6344ms
+2025-12-17 14:05:22.586 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 14:05:22.637 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 50.7938ms
+2025-12-17 14:05:32.953 +03:00 [INF] Application is shutting down...
+2025-12-17 14:05:36.483 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 14:05:36.509 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 14:05:36.509 +03:00 [INF] Hosting environment: Development
+2025-12-17 14:05:36.509 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 14:05:38.020 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 14:05:38.040 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 14:05:38.078 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 59.0631ms
+2025-12-17 14:05:38.117 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 14:05:38.172 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 55.449ms
+2025-12-17 14:05:46.336 +03:00 [INF] Application is shutting down...
+2025-12-17 14:05:49.743 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 14:05:49.769 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 14:05:49.770 +03:00 [INF] Hosting environment: Development
+2025-12-17 14:05:49.770 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 14:05:51.439 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 14:05:51.452 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 14:05:51.483 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 45.7073ms
+2025-12-17 14:05:51.512 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 14:05:51.563 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.7602ms
+2025-12-17 14:06:03.960 +03:00 [INF] Application is shutting down...
+2025-12-17 14:06:07.947 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 14:06:07.969 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 14:06:07.970 +03:00 [INF] Hosting environment: Development
+2025-12-17 14:06:07.970 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 14:06:09.226 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 14:06:09.247 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 14:06:09.283 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 57.2558ms
+2025-12-17 14:06:09.313 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 14:06:09.364 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 51.6934ms
+2025-12-17 14:06:42.102 +03:00 [INF] Application is shutting down...
+2025-12-17 14:06:46.103 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 14:06:46.129 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 14:06:46.129 +03:00 [INF] Hosting environment: Development
+2025-12-17 14:06:46.129 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 14:06:48.607 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 14:06:48.628 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 14:06:48.667 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 60.3748ms
+2025-12-17 14:06:48.703 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 14:06:48.757 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 54.2456ms
+2025-12-17 14:07:54.976 +03:00 [INF] Application is shutting down...
+2025-12-17 14:07:59.106 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 14:07:59.130 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 14:07:59.131 +03:00 [INF] Hosting environment: Development
+2025-12-17 14:07:59.131 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 14:08:00.946 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 14:08:00.966 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 14:08:01.001 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 56.4931ms
+2025-12-17 14:08:01.031 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 14:08:01.083 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 52.2431ms
+2025-12-17 14:08:05.406 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/Customer/List - null null
+2025-12-17 14:08:05.418 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api)'
+2025-12-17 14:08:05.430 +03:00 [INF] Route matched with {action = "GetCustomersWithPagination", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[BizBuddy.Application.Common.Models.PaginatedList`1[BizBuddy.Application.Customers.Queries.GetCustomersWithPagination.GetCustomerListDto]]]] GetCustomersWithPagination(BizBuddy.Application.Customers.Queries.GetCustomersWithPaginationQuery.GetCustomersWithPaginationQuery) on controller BizBuddy.Api.Controllers.Customers.CustomerController (BizBuddy.Api).
+2025-12-17 14:08:05.438 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-17 14:08:05.746 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'InventoryMove'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:08:05.747 +03:00 [WRN] No store type was specified for the decimal property 'DiscountTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:08:05.747 +03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:08:05.747 +03:00 [WRN] No store type was specified for the decimal property 'TaxTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:08:05.747 +03:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:08:05.747 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:08:05.747 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:08:05.747 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:08:05.747 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:08:05.747 +03:00 [WRN] No store type was specified for the decimal property 'StockQty' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:08:06.814 +03:00 [INF] Executed DbCommand (128ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Customers].[Customer] AS [c]
+WHERE [c].[IsDeleted] = CAST(0 AS bit)
+2025-12-17 14:08:06.837 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-12-17 14:08:06.837 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-12-17 14:08:06.963 +03:00 [INF] Executed DbCommand (114ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[Phone], [c].[Email], [c].[Tags], [c].[Notes], [c].[Address], [c].[Password]
+FROM [Customers].[Customer] AS [c]
+WHERE [c].[IsDeleted] = CAST(0 AS bit)
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-12-17 14:08:06.969 +03:00 [INF] Executing ObjectResult, writing value of type 'BizBuddy.Application.Common.Result`1[[BizBuddy.Application.Common.Models.PaginatedList`1[[BizBuddy.Application.Customers.Queries.GetCustomersWithPagination.GetCustomerListDto, BizBuddy.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BizBuddy.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-17 14:08:06.996 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api) in 1564.0642ms
+2025-12-17 14:08:06.996 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api)'
+2025-12-17 14:08:06.999 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/Customer/List - 200 null application/json; charset=utf-8 1593.0204ms
+2025-12-17 14:09:06.611 +03:00 [INF] Application is shutting down...
+2025-12-17 14:09:10.811 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 14:09:10.837 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 14:09:10.838 +03:00 [INF] Hosting environment: Development
+2025-12-17 14:09:10.838 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 14:09:12.847 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/Customer/List - null null
+2025-12-17 14:09:12.864 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 14:09:12.872 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api)'
+2025-12-17 14:09:12.883 +03:00 [INF] Route matched with {action = "GetCustomersWithPagination", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[BizBuddy.Application.Common.Models.PaginatedList`1[BizBuddy.Application.Customers.Queries.GetCustomersWithPagination.GetCustomerListDto]]]] GetCustomersWithPagination(BizBuddy.Application.Customers.Queries.GetCustomersWithPaginationQuery.GetCustomersWithPaginationQuery) on controller BizBuddy.Api.Controllers.Customers.CustomerController (BizBuddy.Api).
+2025-12-17 14:09:12.893 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-17 14:09:13.173 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'InventoryMove'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:09:13.173 +03:00 [WRN] No store type was specified for the decimal property 'DiscountTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:09:13.173 +03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:09:13.173 +03:00 [WRN] No store type was specified for the decimal property 'TaxTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:09:13.173 +03:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:09:13.173 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:09:13.174 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:09:13.174 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:09:13.174 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:09:13.174 +03:00 [WRN] No store type was specified for the decimal property 'StockQty' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:09:14.018 +03:00 [INF] Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Customers].[Customer] AS [c]
+WHERE [c].[IsDeleted] = CAST(0 AS bit)
+2025-12-17 14:09:14.034 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-12-17 14:09:14.035 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-12-17 14:09:14.071 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-17 14:09:14.212 +03:00 [INF] Executed DbCommand (128ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[Name], [c0].[Phone], [c0].[Email], [c0].[Tags], [c0].[Notes], [c0].[Address], [c0].[Password], [o0].[Id], [o0].[Channel], [o0].[CreatedAt], [o0].[CreatedBy], [o0].[Custom], [o0].[CustomerId], [o0].[DeletedAt], [o0].[DeletedBy], [o0].[DiscountTotal], [o0].[IsDeleted], [o0].[Notes], [o0].[PaidAt], [o0].[PaymentMethod], [o0].[Status], [o0].[Subtotal], [o0].[TaxTotal], [o0].[TenantId], [o0].[Total], [o0].[UpdatedAt], [o0].[UpdatedBy], [a0].[Id], [a0].[CreatedAt], [a0].[CreatedBy], [a0].[Custom], [a0].[CustomerId], [a0].[DeletedAt], [a0].[DeletedBy], [a0].[End], [a0].[IsDeleted], [a0].[Notes], [a0].[Start], [a0].[Status], [a0].[TenantId], [a0].[UpdatedAt], [a0].[UpdatedBy]
+FROM (
+    SELECT [c].[Id], [c].[Name], [c].[Phone], [c].[Email], [c].[Tags], [c].[Notes], [c].[Address], [c].[Password]
+    FROM [Customers].[Customer] AS [c]
+    WHERE [c].[IsDeleted] = CAST(0 AS bit)
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [c0]
+LEFT JOIN (
+    SELECT [o].[Id], [o].[Channel], [o].[CreatedAt], [o].[CreatedBy], [o].[Custom], [o].[CustomerId], [o].[DeletedAt], [o].[DeletedBy], [o].[DiscountTotal], [o].[IsDeleted], [o].[Notes], [o].[PaidAt], [o].[PaymentMethod], [o].[Status], [o].[Subtotal], [o].[TaxTotal], [o].[TenantId], [o].[Total], [o].[UpdatedAt], [o].[UpdatedBy]
+    FROM [Orders].[Order] AS [o]
+    WHERE [o].[IsDeleted] = CAST(0 AS bit)
+) AS [o0] ON [c0].[Id] = [o0].[CustomerId]
+LEFT JOIN (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[CreatedBy], [a].[Custom], [a].[CustomerId], [a].[DeletedAt], [a].[DeletedBy], [a].[End], [a].[IsDeleted], [a].[Notes], [a].[Start], [a].[Status], [a].[TenantId], [a].[UpdatedAt], [a].[UpdatedBy]
+    FROM [Orders].[Appointment] AS [a]
+    WHERE [a].[IsDeleted] = CAST(0 AS bit)
+) AS [a0] ON [c0].[Id] = [a0].[CustomerId]
+ORDER BY [c0].[Id], [o0].[Id]
+2025-12-17 14:09:14.254 +03:00 [INF] Executing ObjectResult, writing value of type 'BizBuddy.Application.Common.Result`1[[BizBuddy.Application.Common.Models.PaginatedList`1[[BizBuddy.Application.Customers.Queries.GetCustomersWithPagination.GetCustomerListDto, BizBuddy.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BizBuddy.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-17 14:09:14.280 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api) in 1395.5211ms
+2025-12-17 14:09:14.282 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api)'
+2025-12-17 14:09:14.286 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/Customer/List - 200 null application/json; charset=utf-8 1439.8572ms
+2025-12-17 14:11:05.391 +03:00 [INF] Application is shutting down...
+2025-12-17 14:11:09.607 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 14:11:09.630 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 14:11:09.630 +03:00 [INF] Hosting environment: Development
+2025-12-17 14:11:09.630 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 14:11:10.775 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 14:11:10.787 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 14:11:10.795 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 404 0 null 21.1382ms
+2025-12-17 14:11:10.808 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5140/index.html, Response status code: 404
+2025-12-17 14:11:13.867 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/Customer/List - null null
+2025-12-17 14:11:13.877 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api)'
+2025-12-17 14:11:13.889 +03:00 [INF] Route matched with {action = "GetCustomersWithPagination", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[BizBuddy.Application.Common.Models.PaginatedList`1[BizBuddy.Application.Customers.Queries.GetCustomersWithPagination.GetCustomerListDto]]]] GetCustomersWithPagination(BizBuddy.Application.Customers.Queries.GetCustomersWithPaginationQuery.GetCustomersWithPaginationQuery) on controller BizBuddy.Api.Controllers.Customers.CustomerController (BizBuddy.Api).
+2025-12-17 14:11:13.898 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-17 14:11:14.194 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'InventoryMove'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:14.194 +03:00 [WRN] No store type was specified for the decimal property 'DiscountTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:14.194 +03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:14.194 +03:00 [WRN] No store type was specified for the decimal property 'TaxTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:14.195 +03:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:14.195 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:14.195 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:14.195 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:14.195 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:14.195 +03:00 [WRN] No store type was specified for the decimal property 'StockQty' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:14.228 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api) in 337.7134ms
+2025-12-17 14:11:14.228 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api)'
+2025-12-17 14:11:14.253 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/Customer/List - 500 null application/json 386.3279ms
+2025-12-17 14:11:45.544 +03:00 [INF] Application is shutting down...
+2025-12-17 14:11:48.977 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 14:11:49.001 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 14:11:49.002 +03:00 [INF] Hosting environment: Development
+2025-12-17 14:11:49.002 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 14:11:51.316 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/Customer/List - null null
+2025-12-17 14:11:51.336 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 14:11:51.344 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api)'
+2025-12-17 14:11:51.356 +03:00 [INF] Route matched with {action = "GetCustomersWithPagination", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[BizBuddy.Application.Common.Models.PaginatedList`1[BizBuddy.Application.Customers.Queries.GetCustomersWithPagination.GetCustomerListDto]]]] GetCustomersWithPagination(BizBuddy.Application.Customers.Queries.GetCustomersWithPaginationQuery.GetCustomersWithPaginationQuery) on controller BizBuddy.Api.Controllers.Customers.CustomerController (BizBuddy.Api).
+2025-12-17 14:11:51.365 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-17 14:11:51.646 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'InventoryMove'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:51.646 +03:00 [WRN] No store type was specified for the decimal property 'DiscountTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:51.647 +03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:51.647 +03:00 [WRN] No store type was specified for the decimal property 'TaxTotal' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:51.647 +03:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:51.647 +03:00 [WRN] No store type was specified for the decimal property 'Qty' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:51.647 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:51.647 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:51.647 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:51.647 +03:00 [WRN] No store type was specified for the decimal property 'StockQty' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-12-17 14:11:52.939 +03:00 [INF] Executed DbCommand (99ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Customers].[Customer] AS [c]
+WHERE [c].[IsDeleted] = CAST(0 AS bit)
+2025-12-17 14:11:52.963 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-12-17 14:11:52.964 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-12-17 14:11:52.988 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-12-17 14:11:53.094 +03:00 [INF] Executed DbCommand (93ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[Name], [c0].[Phone], [c0].[Email], [c0].[Tags], [c0].[Notes], [c0].[Address], [c0].[Password], [o0].[Id], [o0].[Status], [a0].[Id]
+FROM (
+    SELECT [c].[Id], [c].[Name], [c].[Phone], [c].[Email], [c].[Tags], [c].[Notes], [c].[Address], [c].[Password]
+    FROM [Customers].[Customer] AS [c]
+    WHERE [c].[IsDeleted] = CAST(0 AS bit)
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [c0]
+LEFT JOIN (
+    SELECT [o].[Id], [o].[Status], [o].[CustomerId]
+    FROM [Orders].[Order] AS [o]
+    WHERE [o].[IsDeleted] = CAST(0 AS bit)
+) AS [o0] ON [c0].[Id] = [o0].[CustomerId]
+LEFT JOIN (
+    SELECT [a].[Id], [a].[CustomerId]
+    FROM [Orders].[Appointment] AS [a]
+    WHERE [a].[IsDeleted] = CAST(0 AS bit)
+) AS [a0] ON [c0].[Id] = [a0].[CustomerId]
+ORDER BY [c0].[Id], [o0].[Id]
+2025-12-17 14:11:53.100 +03:00 [INF] Executing ObjectResult, writing value of type 'BizBuddy.Application.Common.Result`1[[BizBuddy.Application.Common.Models.PaginatedList`1[[BizBuddy.Application.Customers.Queries.GetCustomersWithPagination.GetCustomerListDto, BizBuddy.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BizBuddy.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-17 14:11:53.129 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api) in 1771.4047ms
+2025-12-17 14:11:53.131 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api)'
+2025-12-17 14:11:53.135 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/Customer/List - 200 null application/json; charset=utf-8 1820.8802ms
+2025-12-17 14:12:05.195 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/Customer/List - null null
+2025-12-17 14:12:05.206 +03:00 [INF] Executing endpoint 'BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api)'
+2025-12-17 14:12:05.207 +03:00 [INF] Route matched with {action = "GetCustomersWithPagination", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BizBuddy.Application.Common.Result`1[BizBuddy.Application.Common.Models.PaginatedList`1[BizBuddy.Application.Customers.Queries.GetCustomersWithPagination.GetCustomerListDto]]]] GetCustomersWithPagination(BizBuddy.Application.Customers.Queries.GetCustomersWithPaginationQuery.GetCustomersWithPaginationQuery) on controller BizBuddy.Api.Controllers.Customers.CustomerController (BizBuddy.Api).
+2025-12-17 14:12:05.363 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Customers].[Customer] AS [c]
+WHERE [c].[IsDeleted] = CAST(0 AS bit)
+2025-12-17 14:12:05.447 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[Name], [c0].[Phone], [c0].[Email], [c0].[Tags], [c0].[Notes], [c0].[Address], [c0].[Password], [o0].[Id], [o0].[Status], [a0].[Id]
+FROM (
+    SELECT [c].[Id], [c].[Name], [c].[Phone], [c].[Email], [c].[Tags], [c].[Notes], [c].[Address], [c].[Password]
+    FROM [Customers].[Customer] AS [c]
+    WHERE [c].[IsDeleted] = CAST(0 AS bit)
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [c0]
+LEFT JOIN (
+    SELECT [o].[Id], [o].[Status], [o].[CustomerId]
+    FROM [Orders].[Order] AS [o]
+    WHERE [o].[IsDeleted] = CAST(0 AS bit)
+) AS [o0] ON [c0].[Id] = [o0].[CustomerId]
+LEFT JOIN (
+    SELECT [a].[Id], [a].[CustomerId]
+    FROM [Orders].[Appointment] AS [a]
+    WHERE [a].[IsDeleted] = CAST(0 AS bit)
+) AS [a0] ON [c0].[Id] = [a0].[CustomerId]
+ORDER BY [c0].[Id], [o0].[Id]
+2025-12-17 14:12:05.450 +03:00 [INF] Executing ObjectResult, writing value of type 'BizBuddy.Application.Common.Result`1[[BizBuddy.Application.Common.Models.PaginatedList`1[[BizBuddy.Application.Customers.Queries.GetCustomersWithPagination.GetCustomerListDto, BizBuddy.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BizBuddy.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-17 14:12:05.451 +03:00 [INF] Executed action BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api) in 244.111ms
+2025-12-17 14:12:05.451 +03:00 [INF] Executed endpoint 'BizBuddy.Api.Controllers.Customers.CustomerController.GetCustomersWithPagination (BizBuddy.Api)'
+2025-12-17 14:12:05.452 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/Customer/List - 200 null application/json; charset=utf-8 257.0103ms

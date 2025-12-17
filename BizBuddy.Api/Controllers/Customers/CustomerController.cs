@@ -1,8 +1,11 @@
 using BizBuddy.Application.Common;
+using BizBuddy.Application.Common.Models;
 using BizBuddy.Application.Customers.Commands.CreateCustomers;
 using BizBuddy.Application.Customers.Commands.DeleteCustomers;
 using BizBuddy.Application.Customers.Commands.UpdateCustomers;
 using BizBuddy.Application.Customers.Queries.GetCustomerDetail;
+using BizBuddy.Application.Customers.Queries.GetCustomersWithPagination;
+using BizBuddy.Application.Customers.Queries.GetCustomersWithPaginationQuery;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -37,6 +40,12 @@ namespace BizBuddy.Api.Controllers.Customers
         public async Task<ActionResult<Result<CustomersDto>>> GetCustomers(int id)
         {
             return await Mediator.Send(new GetCustomerDetailQuery(id));
+        }
+        [HttpGet("List")]
+        public async Task<ActionResult<Result<PaginatedList<GetCustomerListDto>>>> GetCustomersWithPagination([FromQuery] GetCustomersWithPaginationQuery query)
+        {
+
+            return await Mediator.Send(query);
         }
     }
 }
