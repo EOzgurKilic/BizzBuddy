@@ -26,26 +26,7 @@ public record UpdateOrderCommand : IRequest<Result>
     public string? Notes { get; set; }
     public string? Custom { get; set; }
 
-    public List<OrderItemDto> Items { get; set; } = new();
-    public List<OrderPaymentDto> Payments { get; set; } = new();
 
-
-}
-public class OrderItemDto
-{
-    public int ProductId { get; set; }
-    public decimal Qty { get; set; }
-    public decimal UnitPrice { get; set; }
-    public string? Notes { get; set; }
-    public string? Custom { get; set; }
-}
-
-public class OrderPaymentDto
-{
-    public decimal Amount { get; set; }
-    public string Method { get; set; }
-    public string? ProviderRef { get; set; }
-    public string? Notes { get; set; }
 }
 
 

@@ -22,7 +22,7 @@ namespace BizBuddy.Api.Controllers.Preset
             return await Mediator.Send(new DeletePreesetSettingsCommand(id));
         }
         [HttpPut("UpdatePreset/{id}")]
-        public async Task<ActionResult<Result>> OrderItemUpdate(long id, UpdatePresetCommand command)
+        public async Task<ActionResult<Result>> UpdatePreset(long id, UpdatePresetCommand command)
         {
             if (id != command.Id)
             {

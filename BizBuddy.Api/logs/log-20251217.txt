@@ -1,0 +1,662 @@
+2025-12-17 12:32:05.852 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:32:05.874 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:32:05.874 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:32:05.874 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:32:07.164 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:32:07.182 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:32:07.254 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - null null
+2025-12-17 12:32:07.254 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - null null
+2025-12-17 12:32:07.254 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-17 12:32:07.226 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 62.0572ms
+2025-12-17 12:32:07.256 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 25.6534ms
+2025-12-17 12:32:07.259 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui.css - null null
+2025-12-17 12:32:07.262 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:07.262 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:07.262 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:07.263 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:07.263 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:07.263 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:07.263 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - 405 0 null 9.7868ms
+2025-12-17 12:32:07.263 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui.css - 405 0 null 4.0207ms
+2025-12-17 12:32:07.263 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - 405 0 null 9.7492ms
+2025-12-17 12:32:07.267 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - null null
+2025-12-17 12:32:07.268 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:07.268 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:07.268 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - 405 0 null 0.8089ms
+2025-12-17 12:32:07.270 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/favicon-16x16.png - null null
+2025-12-17 12:32:07.270 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:07.270 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:07.270 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/favicon-16x16.png - 405 0 null 0.2091ms
+2025-12-17 12:32:14.741 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:32:14.745 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 404 null null 4.049ms
+2025-12-17 12:32:14.747 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5140/swagger/index.html, Response status code: 404
+2025-12-17 12:32:56.489 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:32:56.516 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 26.6978ms
+2025-12-17 12:32:56.522 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui.css - null null
+2025-12-17 12:32:56.522 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - null null
+2025-12-17 12:32:56.522 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - null null
+2025-12-17 12:32:56.525 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:56.547 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:56.525 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:56.547 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:56.547 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-17 12:32:56.547 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:56.547 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:56.548 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - 405 0 null 25.6ms
+2025-12-17 12:32:56.548 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui.css - 405 0 null 25.8596ms
+2025-12-17 12:32:56.548 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - 405 0 null 25.5942ms
+2025-12-17 12:32:56.549 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/_framework/aspnetcore-browser-refresh.js - 200 16459 application/javascript; charset=utf-8 2.0535ms
+2025-12-17 12:32:56.577 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - null null
+2025-12-17 12:32:56.578 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:56.578 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:56.578 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - 405 0 null 0.398ms
+2025-12-17 12:32:56.579 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/favicon-16x16.png - null null
+2025-12-17 12:32:56.579 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:56.579 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:32:56.579 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/favicon-16x16.png - 405 0 null 0.1563ms
+2025-12-17 12:33:00.798 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/s/index.html - null null
+2025-12-17 12:33:00.799 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/s/index.html - 404 null null 1.6589ms
+2025-12-17 12:33:00.800 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5140/s/index.html, Response status code: 404
+2025-12-17 12:33:07.412 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:33:07.412 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 404 null null 0.787ms
+2025-12-17 12:33:07.412 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5140/swagger/index.html, Response status code: 404
+2025-12-17 12:33:45.862 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:33:45.888 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:33:45.888 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:33:45.888 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:33:47.776 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:33:47.791 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:33:47.823 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 47.9772ms
+2025-12-17 12:33:47.828 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - null null
+2025-12-17 12:33:47.828 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - null null
+2025-12-17 12:33:47.830 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui.css - null null
+2025-12-17 12:33:47.837 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:33:47.837 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:33:47.837 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:33:47.837 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:33:47.837 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:33:47.837 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:33:47.837 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui.css - 405 0 null 7.1986ms
+2025-12-17 12:33:47.837 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - 405 0 null 8.7664ms
+2025-12-17 12:33:47.837 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - 405 0 null 8.8839ms
+2025-12-17 12:33:47.841 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - null null
+2025-12-17 12:33:47.841 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:33:47.841 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:33:47.841 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - 405 0 null 0.8146ms
+2025-12-17 12:33:47.842 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/favicon-16x16.png - null null
+2025-12-17 12:33:47.842 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:33:47.843 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:33:47.843 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/favicon-16x16.png - 405 0 null 0.3312ms
+2025-12-17 12:33:54.212 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:33:54.215 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 404 0 null 3.3372ms
+2025-12-17 12:33:54.216 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5140/swagger/index.html, Response status code: 404
+2025-12-17 12:34:34.842 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:34:34.845 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 2.6277ms
+2025-12-17 12:34:34.857 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui.css - null null
+2025-12-17 12:34:34.858 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:34:34.859 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:34:34.859 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui.css - 405 0 null 1.9245ms
+2025-12-17 12:34:34.860 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - null null
+2025-12-17 12:34:34.860 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:34:34.860 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:34:34.860 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - null null
+2025-12-17 12:34:34.860 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - 405 0 null 0.6895ms
+2025-12-17 12:34:34.861 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:34:34.861 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:34:34.861 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - 405 0 null 0.9462ms
+2025-12-17 12:34:34.866 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - null null
+2025-12-17 12:34:34.866 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:34:34.867 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:34:34.867 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - 405 0 null 0.9285ms
+2025-12-17 12:34:34.868 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/favicon-16x16.png - null null
+2025-12-17 12:34:34.868 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:34:34.869 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:34:34.869 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/favicon-16x16.png - 405 0 null 0.6783ms
+2025-12-17 12:35:07.397 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:35:07.398 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 200 null text/html;charset=utf-8 1.0437ms
+2025-12-17 12:35:07.407 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui.css - null null
+2025-12-17 12:35:07.408 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:35:07.408 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:35:07.408 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui.css - 405 0 null 1.1727ms
+2025-12-17 12:35:07.409 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - null null
+2025-12-17 12:35:07.409 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:35:07.409 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:35:07.409 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - null null
+2025-12-17 12:35:07.409 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-standalone-preset.js - 405 0 null 0.7869ms
+2025-12-17 12:35:07.410 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:35:07.410 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:35:07.410 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger-ui-bundle.js - 405 0 null 1.104ms
+2025-12-17 12:35:07.414 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - null null
+2025-12-17 12:35:07.414 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:35:07.414 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:35:07.414 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/favicon-32x32.png - 405 0 null 0.4982ms
+2025-12-17 12:35:07.415 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/favicon-16x16.png - null null
+2025-12-17 12:35:07.415 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:35:07.415 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:35:07.415 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/favicon-16x16.png - 405 0 null 0.2531ms
+2025-12-17 12:35:37.361 +03:00 [INF] Application is shutting down...
+2025-12-17 12:35:42.191 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Dynamic port binding is not supported when binding to localhost. You must either bind to 127.0.0.1:0 or [::1]:0, or both.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions..ctor(Int32 port)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.ParseAddress(String address, Boolean& https)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-12-17 12:36:34.204 +03:00 [INF] Now listening on: http://127.0.0.1:49313
+2025-12-17 12:36:34.229 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:36:34.230 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:36:34.230 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:36:35.596 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/ - null null
+2025-12-17 12:36:35.616 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/ - 301 0 null 20.8953ms
+2025-12-17 12:36:35.624 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/index.html - null null
+2025-12-17 12:36:35.652 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/index.html - 200 null text/html;charset=utf-8 28.1836ms
+2025-12-17 12:36:35.657 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui.css - null null
+2025-12-17 12:36:35.658 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-bundle.js - null null
+2025-12-17 12:36:35.658 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-standalone-preset.js - null null
+2025-12-17 12:36:35.666 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:36:35.666 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:36:35.666 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:36:35.666 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:36:35.666 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:36:35.666 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:36:35.666 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui.css - 405 0 null 8.8975ms
+2025-12-17 12:36:35.666 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-standalone-preset.js - 405 0 null 8.7451ms
+2025-12-17 12:36:35.666 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-bundle.js - 405 0 null 8.8625ms
+2025-12-17 12:36:35.695 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/favicon-32x32.png - null null
+2025-12-17 12:36:35.696 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:36:35.696 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:36:35.696 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/favicon-32x32.png - 405 0 null 0.5712ms
+2025-12-17 12:36:35.697 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/favicon-16x16.png - null null
+2025-12-17 12:36:35.697 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:36:35.697 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:36:35.697 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/favicon-16x16.png - 405 0 null 0.5621ms
+2025-12-17 12:37:14.142 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/index.html - null null
+2025-12-17 12:37:14.144 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/index.html - 200 null text/html;charset=utf-8 2.196ms
+2025-12-17 12:37:14.155 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui.css - null null
+2025-12-17 12:37:14.156 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:14.156 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:14.157 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui.css - 405 0 null 2.0578ms
+2025-12-17 12:37:14.159 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-bundle.js - null null
+2025-12-17 12:37:14.159 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-standalone-preset.js - null null
+2025-12-17 12:37:14.160 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:14.160 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:14.160 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:14.160 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:14.160 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-bundle.js - 405 0 null 1.5492ms
+2025-12-17 12:37:14.161 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-standalone-preset.js - 405 0 null 1.5829ms
+2025-12-17 12:37:14.174 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/favicon-32x32.png - null null
+2025-12-17 12:37:14.174 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:14.174 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:14.174 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/favicon-32x32.png - 405 0 null 0.5781ms
+2025-12-17 12:37:14.175 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/favicon-16x16.png - null null
+2025-12-17 12:37:14.176 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:14.176 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:14.176 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/favicon-16x16.png - 405 0 null 0.4837ms
+2025-12-17 12:37:44.279 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/index.html - null null
+2025-12-17 12:37:44.281 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/index.html - 200 null text/html;charset=utf-8 1.3344ms
+2025-12-17 12:37:44.288 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui.css - null null
+2025-12-17 12:37:44.289 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-bundle.js - null null
+2025-12-17 12:37:44.289 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:44.289 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:44.289 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:44.289 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:44.290 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui.css - 405 0 null 1.0416ms
+2025-12-17 12:37:44.290 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-bundle.js - 405 0 null 0.753ms
+2025-12-17 12:37:44.290 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-standalone-preset.js - null null
+2025-12-17 12:37:44.291 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:44.291 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:44.291 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-standalone-preset.js - 405 0 null 0.6613ms
+2025-12-17 12:37:44.312 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/favicon-32x32.png - null null
+2025-12-17 12:37:44.313 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:44.314 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:44.314 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/favicon-32x32.png - 405 0 null 1.4161ms
+2025-12-17 12:37:44.316 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/favicon-16x16.png - null null
+2025-12-17 12:37:44.316 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:44.316 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:44.316 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/favicon-16x16.png - 405 0 null 0.5899ms
+2025-12-17 12:37:49.120 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/ - null null
+2025-12-17 12:37:49.121 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/ - 301 0 null 0.7887ms
+2025-12-17 12:37:49.122 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/index.html - null null
+2025-12-17 12:37:49.124 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/index.html - 200 null text/html;charset=utf-8 1.7572ms
+2025-12-17 12:37:49.132 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui.css - null null
+2025-12-17 12:37:49.132 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:49.133 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:49.133 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui.css - 405 0 null 0.8397ms
+2025-12-17 12:37:49.133 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-bundle.js - null null
+2025-12-17 12:37:49.133 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-standalone-preset.js - null null
+2025-12-17 12:37:49.133 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:49.133 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:49.133 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:49.133 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-bundle.js - 405 0 null 0.676ms
+2025-12-17 12:37:49.134 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:49.134 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/swagger-ui-standalone-preset.js - 405 0 null 0.6382ms
+2025-12-17 12:37:49.153 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/favicon-32x32.png - null null
+2025-12-17 12:37:49.153 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:49.153 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:49.153 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/favicon-32x32.png - 405 0 null 0.3951ms
+2025-12-17 12:37:49.154 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49313/favicon-16x16.png - null null
+2025-12-17 12:37:49.154 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:49.154 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:37:49.154 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49313/favicon-16x16.png - 405 0 null 0.2571ms
+2025-12-17 12:38:21.319 +03:00 [INF] Application is shutting down...
+2025-12-17 12:38:25.835 +03:00 [INF] Now listening on: http://127.0.0.1:49330
+2025-12-17 12:38:25.861 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:38:25.861 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:38:25.861 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:38:26.822 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49330/ - null null
+2025-12-17 12:38:26.843 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49330/ - 404 0 null 19.0425ms
+2025-12-17 12:38:26.850 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:49330/, Response status code: 404
+2025-12-17 12:38:32.605 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49330/swagger/index.html - null null
+2025-12-17 12:38:32.645 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49330/swagger/index.html - 200 null text/html;charset=utf-8 40.9432ms
+2025-12-17 12:38:32.656 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49330/swagger/swagger-ui-bundle.js - null null
+2025-12-17 12:38:32.657 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49330/swagger/swagger-ui.css - null null
+2025-12-17 12:38:32.657 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49330/swagger/swagger-ui-standalone-preset.js - null null
+2025-12-17 12:38:32.679 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-12-17 12:38:32.679 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-12-17 12:38:32.679 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-12-17 12:38:32.680 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49330/swagger/swagger-ui-bundle.js - 200 1456682 text/javascript 23.8387ms
+2025-12-17 12:38:32.680 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49330/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 22.6737ms
+2025-12-17 12:38:32.680 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49330/swagger/swagger-ui.css - 200 152034 text/css 23.5247ms
+2025-12-17 12:38:32.750 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49330/swagger/v1/swagger.json - null null
+2025-12-17 12:38:32.759 +03:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:49330/swagger/favicon-32x32.png - null null
+2025-12-17 12:38:32.759 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-12-17 12:38:32.760 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49330/swagger/favicon-32x32.png - 200 628 image/png 0.582ms
+2025-12-17 12:38:32.782 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - BizBuddy.Api.Controllers.RoleAssignment.BrandingController.BrandingUpdate (BizBuddy.Api). See inner exception
+ ---> Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate schema for type - BizBuddy.Application.RoleAssignment.Commands.UpdateBranding.UpdateBrandingCommand. See inner exception
+ ---> System.InvalidOperationException: Can't use schemaId "$DarkModeSettingsDto" for type "$BizBuddy.Application.RoleAssignment.Commands.UpdateBranding.DarkModeSettingsDto". The same schemaId is already used for type "$BizBuddy.Application.RoleAssignment.Commands.CreateBranding.DarkModeSettingsDto"
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaRepository.RegisterType(Type type, String schemaId)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateReferencedSchema(DataContract dataContract, SchemaRepository schemaRepository, Func`1 definitionFactory)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateConcreteSchema(DataContract dataContract, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateSchemaForMember(Type modelType, SchemaRepository schemaRepository, MemberInfo memberInfo, DataProperty dataProperty)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.CreateObjectSchema(DataContract dataContract, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.<>c__DisplayClass11_0.<GenerateConcreteSchema>b__3()
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateReferencedSchema(DataContract dataContract, SchemaRepository schemaRepository, Func`1 definitionFactory)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateConcreteSchema(DataContract dataContract, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateSchemaForParameter(Type modelType, SchemaRepository schemaRepository, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateSchema(Type modelType, SchemaRepository schemaRepository, MemberInfo memberInfo, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateSchema(Type type, SchemaRepository schemaRepository, PropertyInfo propertyInfo, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateSchema(Type type, SchemaRepository schemaRepository, PropertyInfo propertyInfo, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateRequestBodyFromBodyParameter(ApiDescription apiDescription, SchemaRepository schemaRepository, ApiParameterDescription bodyParameter)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateRequestBody(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-17 12:38:32.805 +03:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:49330/swagger/v1/swagger.json - 500 null application/json; charset=utf-8 54.968ms
+2025-12-17 12:38:46.372 +03:00 [INF] Application is shutting down...
+2025-12-17 12:38:50.011 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:38:50.036 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:38:50.037 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:38:50.037 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:38:50.774 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:38:50.792 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:38:50.799 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:38:50.799 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:38:50.801 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 27.2597ms
+2025-12-17 12:38:57.705 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:38:57.751 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 47.1477ms
+2025-12-17 12:38:57.766 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/swagger-ui.css - null null
+2025-12-17 12:38:57.770 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/swagger-ui-bundle.js - null null
+2025-12-17 12:38:57.770 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/swagger-ui-standalone-preset.js - null null
+2025-12-17 12:38:57.780 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-12-17 12:38:57.780 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-12-17 12:38:57.780 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-12-17 12:38:57.781 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 10.3792ms
+2025-12-17 12:38:57.781 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/swagger-ui-bundle.js - 200 1456682 text/javascript 10.8656ms
+2025-12-17 12:38:57.781 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/swagger-ui.css - 200 152034 text/css 14.3081ms
+2025-12-17 12:38:57.854 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:38:57.860 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/favicon-32x32.png - null null
+2025-12-17 12:38:57.860 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-12-17 12:38:57.861 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/favicon-32x32.png - 200 628 image/png 0.4562ms
+2025-12-17 12:38:57.900 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 46.5238ms
+2025-12-17 12:39:08.886 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:39:08.888 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 2.0029ms
+2025-12-17 12:39:08.939 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:39:08.943 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 4.0583ms
+2025-12-17 12:45:49.758 +03:00 [INF] Application is shutting down...
+2025-12-17 12:45:54.505 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:45:54.529 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:45:54.529 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:45:54.529 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:45:55.800 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:45:55.816 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:45:55.824 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:45:55.824 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:45:55.825 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 25.6967ms
+2025-12-17 12:45:58.734 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:45:58.786 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 53.0037ms
+2025-12-17 12:45:58.820 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:45:58.873 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 53.1018ms
+2025-12-17 12:47:47.171 +03:00 [INF] Application is shutting down...
+2025-12-17 12:47:51.086 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:47:51.112 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:47:51.112 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:47:51.112 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:47:52.716 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:47:52.731 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:47:52.738 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:47:52.738 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:47:52.740 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 24.9977ms
+2025-12-17 12:47:58.179 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:47:58.223 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 44.9397ms
+2025-12-17 12:47:58.272 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:47:58.318 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 46.2437ms
+2025-12-17 12:51:28.453 +03:00 [INF] Application is shutting down...
+2025-12-17 12:51:33.266 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:51:33.291 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:51:33.291 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:51:33.291 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:51:35.072 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:51:35.091 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:51:35.129 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 58.9277ms
+2025-12-17 12:51:35.161 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:51:35.211 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 50.3744ms
+2025-12-17 12:52:10.384 +03:00 [INF] Application is shutting down...
+2025-12-17 12:52:14.192 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:52:14.218 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:52:14.218 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:52:14.218 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:52:15.425 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:52:15.439 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:52:15.447 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:52:15.447 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:52:15.449 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 25.187ms
+2025-12-17 12:52:17.526 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:52:17.566 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 40.5707ms
+2025-12-17 12:52:17.596 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:52:17.645 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 48.5502ms
+2025-12-17 12:52:54.274 +03:00 [INF] Application is shutting down...
+2025-12-17 12:52:58.379 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:52:58.404 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:52:58.405 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:52:58.405 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:53:00.264 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:53:00.278 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:53:00.286 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 404 0 null 23.1119ms
+2025-12-17 12:53:00.300 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5140/index.html, Response status code: 404
+2025-12-17 12:53:01.961 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:53:02.004 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 43.0402ms
+2025-12-17 12:53:02.036 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:53:02.083 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 46.5924ms
+2025-12-17 12:53:07.708 +03:00 [INF] Application is shutting down...
+2025-12-17 12:53:12.110 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:53:12.137 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:53:12.137 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:53:12.137 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:53:13.149 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:53:13.162 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:53:13.169 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:53:13.169 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:53:13.170 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 22.2776ms
+2025-12-17 12:53:14.395 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:53:14.444 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 50.0966ms
+2025-12-17 12:53:14.477 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:53:14.533 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 55.7164ms
+2025-12-17 12:53:27.495 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:53:27.498 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 2.7932ms
+2025-12-17 12:53:27.534 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:53:27.543 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.0526ms
+2025-12-17 12:53:31.757 +03:00 [INF] Application is shutting down...
+2025-12-17 12:53:35.447 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:53:35.471 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:53:35.471 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:53:35.471 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:53:36.428 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:53:36.443 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:53:36.449 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:53:36.449 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:53:36.451 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 23.9278ms
+2025-12-17 12:53:37.597 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:53:37.648 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 51.6796ms
+2025-12-17 12:53:37.680 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:53:37.734 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.964ms
+2025-12-17 12:53:48.717 +03:00 [INF] Application is shutting down...
+2025-12-17 12:53:52.477 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:53:52.503 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:53:52.503 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:53:52.503 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:53:54.091 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:53:54.110 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:53:54.146 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 55.5438ms
+2025-12-17 12:53:54.176 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:53:54.225 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 48.9187ms
+2025-12-17 12:54:16.067 +03:00 [INF] Application is shutting down...
+2025-12-17 12:54:20.000 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:54:20.025 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:54:20.025 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:54:20.025 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:54:22.412 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:54:22.431 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:54:22.467 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 56.415ms
+2025-12-17 12:54:22.495 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:54:22.545 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.099ms
+2025-12-17 12:54:44.755 +03:00 [INF] Application is shutting down...
+2025-12-17 12:54:48.695 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:54:48.720 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:54:48.720 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:54:48.720 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:54:49.974 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:54:49.987 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:54:49.994 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:54:49.994 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:54:49.996 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 22.3174ms
+2025-12-17 12:54:51.169 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:54:51.218 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 50.0919ms
+2025-12-17 12:54:51.257 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:54:51.313 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.5462ms
+2025-12-17 12:55:02.949 +03:00 [INF] Application is shutting down...
+2025-12-17 12:55:06.550 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:55:06.576 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:55:06.576 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:55:06.576 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:55:07.344 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:55:07.360 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:55:07.367 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:55:07.367 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:55:07.369 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 25.491ms
+2025-12-17 12:55:08.893 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:55:08.945 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 52.4432ms
+2025-12-17 12:55:08.979 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:55:09.027 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 48.2507ms
+2025-12-17 12:55:24.287 +03:00 [INF] Application is shutting down...
+2025-12-17 12:55:27.866 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:55:27.892 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:55:27.892 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:55:27.892 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:55:29.345 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:55:29.364 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:55:29.401 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 56.8552ms
+2025-12-17 12:55:29.428 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:55:29.475 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 47.0962ms
+2025-12-17 12:55:36.708 +03:00 [INF] Application is shutting down...
+2025-12-17 12:55:41.204 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:55:41.230 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:55:41.230 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:55:41.230 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:55:42.276 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:55:42.289 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:55:42.296 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:55:42.296 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:55:42.298 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 22.3693ms
+2025-12-17 12:55:44.143 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:55:44.194 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 52.295ms
+2025-12-17 12:55:44.225 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:55:44.278 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 52.9678ms
+2025-12-17 12:55:52.139 +03:00 [INF] Application is shutting down...
+2025-12-17 12:55:56.180 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:55:56.203 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:55:56.204 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:55:56.204 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:55:58.187 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:55:58.200 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:55:58.208 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:55:58.208 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:55:58.210 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 23.4742ms
+2025-12-17 12:55:59.485 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:55:59.527 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 42.4796ms
+2025-12-17 12:55:59.560 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:55:59.614 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.6571ms
+2025-12-17 12:56:39.010 +03:00 [INF] Application is shutting down...
+2025-12-17 12:56:43.622 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:56:43.648 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:56:43.649 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:56:43.649 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:56:45.721 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:56:45.734 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:56:45.741 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:56:45.741 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:56:45.742 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 22.3932ms
+2025-12-17 12:56:47.208 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:56:47.255 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 46.954ms
+2025-12-17 12:56:47.286 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:56:47.341 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 54.4401ms
+2025-12-17 12:57:33.204 +03:00 [INF] Application is shutting down...
+2025-12-17 12:57:37.076 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:57:37.104 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:57:37.105 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:57:37.105 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:57:38.474 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:57:38.488 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:57:38.494 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:57:38.495 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:57:38.496 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 22.6645ms
+2025-12-17 12:57:40.183 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:57:40.229 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 45.6824ms
+2025-12-17 12:57:40.262 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:57:40.315 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 52.2582ms
+2025-12-17 12:57:54.323 +03:00 [INF] Application is shutting down...
+2025-12-17 12:57:57.895 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:57:57.921 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:57:57.921 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:57:57.921 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:57:58.869 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:57:58.886 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:57:58.894 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:57:58.895 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:57:58.896 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 28.0815ms
+2025-12-17 12:58:01.049 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:58:01.089 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 40.7916ms
+2025-12-17 12:58:01.119 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:58:01.169 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 50.59ms
+2025-12-17 12:58:24.064 +03:00 [INF] Application is shutting down...
+2025-12-17 12:58:27.863 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:58:27.887 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:58:27.887 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:58:27.887 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:58:32.375 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:58:32.395 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:58:32.431 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 57.7966ms
+2025-12-17 12:58:32.460 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:58:32.513 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 52.4676ms
+2025-12-17 12:58:44.923 +03:00 [INF] Application is shutting down...
+2025-12-17 12:58:48.563 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:58:48.588 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:58:48.588 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:58:48.588 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:58:49.719 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 12:58:49.731 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:58:49.739 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:58:49.739 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 12:58:49.740 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 22.3985ms
+2025-12-17 12:58:50.867 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:58:50.906 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 39.8933ms
+2025-12-17 12:58:50.935 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:58:50.985 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 50.0222ms
+2025-12-17 12:59:00.538 +03:00 [INF] Application is shutting down...
+2025-12-17 12:59:04.067 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 12:59:04.092 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 12:59:04.093 +03:00 [INF] Hosting environment: Development
+2025-12-17 12:59:04.093 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 12:59:05.405 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 12:59:05.423 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 12:59:05.459 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 54.0813ms
+2025-12-17 12:59:05.491 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 12:59:05.546 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 55.5487ms
+2025-12-17 13:00:07.581 +03:00 [INF] Application is shutting down...
+2025-12-17 13:00:22.837 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 13:00:22.862 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 13:00:22.863 +03:00 [INF] Hosting environment: Development
+2025-12-17 13:00:22.863 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 13:00:23.739 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 13:00:23.753 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 13:00:23.759 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 13:00:23.759 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 13:00:23.761 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 22.5187ms
+2025-12-17 13:00:25.189 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 13:00:25.236 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 47.4392ms
+2025-12-17 13:00:25.272 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 13:00:25.331 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.7186ms
+2025-12-17 13:01:07.742 +03:00 [INF] Application is shutting down...
+2025-12-17 13:01:13.013 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 13:01:13.035 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 13:01:13.036 +03:00 [INF] Hosting environment: Development
+2025-12-17 13:01:13.036 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 13:01:14.478 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-17 13:01:14.491 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 13:01:14.497 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-17 13:01:14.498 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-17 13:01:14.499 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 405 0 null 22.3307ms
+2025-12-17 13:01:16.217 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 13:01:16.258 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 41.7228ms
+2025-12-17 13:01:16.301 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 13:01:16.352 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 51.3505ms
+2025-12-17 13:01:57.475 +03:00 [INF] Application is shutting down...
+2025-12-17 13:02:01.672 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 13:02:01.696 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 13:02:01.696 +03:00 [INF] Hosting environment: Development
+2025-12-17 13:02:01.696 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 13:02:02.932 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 13:02:02.950 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 13:02:02.986 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 55.0238ms
+2025-12-17 13:02:03.016 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 13:02:03.072 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.1863ms
+2025-12-17 13:02:27.678 +03:00 [INF] Application is shutting down...
+2025-12-17 13:02:31.549 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 13:02:31.574 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 13:02:31.575 +03:00 [INF] Hosting environment: Development
+2025-12-17 13:02:31.575 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 13:02:32.976 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 13:02:32.998 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 13:02:33.033 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 58.1526ms
+2025-12-17 13:02:33.060 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 13:02:33.120 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 60.5273ms
+2025-12-17 13:02:41.582 +03:00 [INF] Application is shutting down...
+2025-12-17 13:02:46.069 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 13:02:46.093 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 13:02:46.093 +03:00 [INF] Hosting environment: Development
+2025-12-17 13:02:46.093 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 13:02:47.520 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 13:02:47.541 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 13:02:47.576 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 57.4965ms
+2025-12-17 13:02:47.604 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 13:02:47.654 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 49.48ms
+2025-12-17 13:03:24.445 +03:00 [INF] Application is shutting down...
+2025-12-17 13:03:28.358 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 13:03:28.384 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 13:03:28.384 +03:00 [INF] Hosting environment: Development
+2025-12-17 13:03:28.384 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 13:03:33.799 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 13:03:33.820 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 13:03:33.856 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 57.4809ms
+2025-12-17 13:03:33.885 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 13:03:33.944 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.3345ms
+2025-12-17 13:03:45.175 +03:00 [INF] Application is shutting down...
+2025-12-17 13:03:48.771 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-17 13:03:48.796 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 13:03:48.796 +03:00 [INF] Hosting environment: Development
+2025-12-17 13:03:48.796 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-17 13:03:51.169 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-17 13:03:51.191 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-17 13:03:51.227 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 59.496ms
+2025-12-17 13:03:51.252 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-17 13:03:51.308 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 55.6169ms

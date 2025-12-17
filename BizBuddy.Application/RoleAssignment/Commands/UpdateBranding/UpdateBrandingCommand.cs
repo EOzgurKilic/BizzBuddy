@@ -1,6 +1,7 @@
 using System;
 using BizBuddy.Application.Common;
 using BizBuddy.Application.Common.Interfaces;
+using BizBuddy.Application.RoleAssignment.Commands.CreateBranding;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,13 +21,6 @@ public record UpdateBrandingCommand : IRequest<Result>
     public DarkModeSettingsDto? DarkMode { get; set; }
 }
 
-public sealed class DarkModeSettingsDto
-{
-    public bool Enabled { get; set; }
-    public string? Background { get; set; }
-    public string? Surface { get; set; }
-    public string? Text { get; set; }
-}
 public class UpdateBrandingCommandHandler(IApplicationDbContext context)
     : IRequestHandler<UpdateBrandingCommand, Result>
 {
@@ -48,8 +42,6 @@ public class UpdateBrandingCommandHandler(IApplicationDbContext context)
 
         if (request.DarkMode != null)
         {
-            entity.DarkMode ??= new();
-
             entity.DarkMode.Enabled = request.DarkMode.Enabled;
             entity.DarkMode.Background = request.DarkMode.Background;
             entity.DarkMode.Surface = request.DarkMode.Surface;
