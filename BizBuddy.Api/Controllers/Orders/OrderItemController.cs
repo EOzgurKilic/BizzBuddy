@@ -1,7 +1,11 @@
 using BizBuddy.Application.Common;
+using BizBuddy.Application.Common.Models;
 using BizBuddy.Application.Orders.Commands.CreateOrderItem;
 using BizBuddy.Application.Orders.Commands.DeleteOrderItem;
 using BizBuddy.Application.Orders.Commands.UpdateOrderItem;
+using BizBuddy.Application.Orders.Queries.GetOrderDetail;
+using BizBuddy.Application.Orders.Queries.GetOrderItemDetail;
+using BizBuddy.Application.Orders.Queries.GetOrderItemWithPagination;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -31,6 +35,16 @@ namespace BizBuddy.Api.Controllers.Orders
             }
 
             return await Mediator.Send(command);
+        }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Result<OrderItemDetailDto>>> GetOrderItemDetail(int id)
+        {
+            return await Mediator.Send(new GetOrderItemQuery(id));
+        }
+        [HttpGet]
+        public async Task<ActionResult<Result<PaginatedList<OrderItemListDto>>>> GetOrderItemPagination([FromQuery] GetOrderItemWithPaginationQuery query)
+        {
+            return await Mediator.Send(query);
         }
     }
 }

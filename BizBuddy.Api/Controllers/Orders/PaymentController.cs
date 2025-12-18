@@ -1,7 +1,10 @@
 using BizBuddy.Application.Common;
+using BizBuddy.Application.Common.Models;
 using BizBuddy.Application.Orders.Commands.CreatePayment;
 using BizBuddy.Application.Orders.Commands.DeletePayment;
 using BizBuddy.Application.Orders.Commands.UpdatePayment;
+using BizBuddy.Application.Orders.Queries.GetPaymentDetail;
+using BizBuddy.Application.Orders.Queries.GetPaymentWithPagination;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -29,6 +32,16 @@ namespace BizBuddy.Api.Controllers.Orders
             }
 
             return await Mediator.Send(command);
+        }
+         [HttpGet("{id}")]
+        public async Task<ActionResult<Result<PaymentDetailDto>>> GetPaymentDetail(int id)
+        {
+            return await Mediator.Send(new GetPaymentDetailQuery(id));
+        }
+        [HttpGet]
+        public async Task<ActionResult<Result<PaginatedList<PaymentListDto>>>> GetPaymentPagination([FromQuery] GetPaymentWithPaginationQuery query)
+        {
+            return await Mediator.Send(query);
         }
     }
 }

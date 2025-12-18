@@ -1,0 +1,89 @@
+2025-12-18 09:33:53.868 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-18 09:33:53.895 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 09:33:53.896 +03:00 [INF] Hosting environment: Development
+2025-12-18 09:33:53.896 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-18 09:33:55.101 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-18 09:33:55.116 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-18 09:33:55.133 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 404 0 null 32.3033ms
+2025-12-18 09:33:55.144 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5140/index.html, Response status code: 404
+2025-12-18 09:33:59.611 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-18 09:33:59.653 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 42.2398ms
+2025-12-18 09:33:59.702 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-18 09:33:59.764 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.2706ms
+2025-12-18 11:16:36.944 +03:00 [INF] Application is shutting down...
+2025-12-18 11:17:04.397 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-18 11:17:04.424 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 11:17:04.425 +03:00 [INF] Hosting environment: Development
+2025-12-18 11:17:04.425 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-18 11:17:08.177 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-18 11:17:08.195 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-18 11:17:08.233 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 57.1607ms
+2025-12-18 11:17:08.284 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-18 11:17:08.342 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 58.4214ms
+2025-12-18 11:17:23.188 +03:00 [INF] Application is shutting down...
+2025-12-18 11:17:36.334 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-18 11:17:36.359 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 11:17:36.359 +03:00 [INF] Hosting environment: Development
+2025-12-18 11:17:36.359 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-18 11:17:38.151 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-18 11:17:38.171 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-18 11:17:38.208 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 58.54ms
+2025-12-18 11:17:38.235 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-18 11:17:38.289 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 54.2704ms
+2025-12-18 11:17:49.843 +03:00 [INF] Application is shutting down...
+2025-12-18 11:17:53.494 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-18 11:17:53.520 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 11:17:53.520 +03:00 [INF] Hosting environment: Development
+2025-12-18 11:17:53.520 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-18 11:17:55.043 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/index.html - null null
+2025-12-18 11:17:55.057 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-18 11:17:55.065 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/index.html - 404 0 null 22.1365ms
+2025-12-18 11:17:55.073 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5140/index.html, Response status code: 404
+2025-12-18 11:17:56.703 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-18 11:17:56.737 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 33.5007ms
+2025-12-18 11:17:56.769 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-18 11:17:56.828 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 58.9475ms
+2025-12-18 11:18:02.515 +03:00 [INF] Application is shutting down...
+2025-12-18 11:18:06.305 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-18 11:18:06.330 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 11:18:06.331 +03:00 [INF] Hosting environment: Development
+2025-12-18 11:18:06.331 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-18 11:18:08.665 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-18 11:18:08.682 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-18 11:18:08.721 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 56.8834ms
+2025-12-18 11:18:08.750 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-18 11:18:08.807 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.1024ms
+2025-12-18 11:18:43.413 +03:00 [INF] Application is shutting down...
+2025-12-18 11:18:48.328 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-18 11:18:48.354 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 11:18:48.354 +03:00 [INF] Hosting environment: Development
+2025-12-18 11:18:48.354 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-18 11:18:48.942 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-18 11:18:48.958 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-18 11:18:48.994 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 53.3276ms
+2025-12-18 11:18:49.038 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-18 11:18:49.094 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.5867ms
+2025-12-18 11:18:49.853 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-18 11:18:49.854 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 1.089ms
+2025-12-18 11:18:49.880 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-18 11:18:49.896 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.5069ms
+2025-12-18 11:19:02.480 +03:00 [INF] Application is shutting down...
+2025-12-18 11:19:06.577 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-18 11:19:06.604 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 11:19:06.604 +03:00 [INF] Hosting environment: Development
+2025-12-18 11:19:06.604 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-18 11:19:10.394 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-18 11:19:10.408 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-18 11:19:10.442 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 48.25ms
+2025-12-18 11:19:10.467 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-18 11:19:10.522 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 500 null application/json 54.3488ms
+2025-12-18 11:20:45.240 +03:00 [INF] Application is shutting down...
+2025-12-18 11:20:49.814 +03:00 [INF] Now listening on: http://localhost:5140
+2025-12-18 11:20:49.838 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 11:20:49.838 +03:00 [INF] Hosting environment: Development
+2025-12-18 11:20:49.838 +03:00 [INF] Content root path: /Users/vlknn/BizzBuddy/BizBuddy.Api
+2025-12-18 11:20:51.180 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/index.html - null null
+2025-12-18 11:20:51.199 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-18 11:20:51.237 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/index.html - 200 null text/html;charset=utf-8 58.4582ms
+2025-12-18 11:20:51.269 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - null null
+2025-12-18 11:20:51.331 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.5776ms

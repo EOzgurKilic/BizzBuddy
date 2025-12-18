@@ -35,7 +35,7 @@ namespace BizBuddy.Api.Controllers.CustomFieldDefs
 
             return await Mediator.Send(command);
         }
-          [HttpGet("{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<Result<CustomFieldDefsDetailDto>>> GetCustomFieldDefs(int id)
         {
             return await Mediator.Send(new GetCustomFieldDefsDetailQuery(id));
