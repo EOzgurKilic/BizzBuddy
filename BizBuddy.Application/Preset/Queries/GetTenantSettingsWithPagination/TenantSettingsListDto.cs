@@ -13,7 +13,7 @@ public class TenantSettingsListDto: IMapFrom<TenantSettings>
     public List<string> EnabledModules { get; set; } = new();
     public List<string> MenuOrder { get; set; } = new();
 
-    public BrandingListDto Branding { get; set; } = default!;
+    public BrandingListTenantDto Branding { get; set; } = default!;
     public int BrandingId { get; set; }
 
     public void Mapping(Profile profile)
@@ -21,10 +21,10 @@ public class TenantSettingsListDto: IMapFrom<TenantSettings>
         profile.CreateMap<TenantSettings, TenantSettingsListDto>()
                .ReverseMap();
 
-        profile.CreateMap<Branding, BrandingListDto>().ReverseMap();
+        profile.CreateMap<Branding, BrandingListTenantDto>().ReverseMap();
     }
 }
-public class BrandingListDto
+public class BrandingListTenantDto
 {
     public int Id { get; set; }
     public string? LogoUrl { get; set; }

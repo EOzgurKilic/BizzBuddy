@@ -9,8 +9,6 @@ using MediatR;
 
 namespace BizBuddy.Application.Customers.Queries.GetCustomersWithPaginationQuery;
 
-
-
 public record GetCustomersWithPaginationQuery() : IRequest<Result<PaginatedList<GetCustomerListDto>>>
 {
     public int PageNumber { get; init; } = 1;

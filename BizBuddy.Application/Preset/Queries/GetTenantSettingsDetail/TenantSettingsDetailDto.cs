@@ -25,7 +25,6 @@ public class TenantSettingsDetailDto: IMapFrom<TenantSettings>
     }
 }
 
-// Branding için gerekli olan alt DTO
 public class BrandingDetailDto
 {
     public int Id { get; set; }

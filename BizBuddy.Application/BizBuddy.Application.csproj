@@ -40,10 +40,22 @@
     <Folder Include="Preset/Queries/GetPresetSettingsDetail/" />
     <Folder Include="Preset/Queries/GetTenantSettingsWithPagination/" />
     <Folder Include="Products/Queries/" />
+    <Folder Include="Products/Queries/GetProductsDetail/" />
+    <Folder Include="Products/Queries/GetProductsWithPagination/" />
     <Folder Include="RoleAssignment/Queries/" />
+    <Folder Include="RoleAssignment/Queries/GetBrandingDetail/" />
+    <Folder Include="RoleAssignment/Queries/GetBrandingWithPagination/" />
+    <Folder Include="RoleAssignment/Queries/GetRoleDetail/" />
+    <Folder Include="RoleAssignment/Queries/GetRoleWithPagination/" />
     <Folder Include="Staff/Queries/" />
+    <Folder Include="Staff/Queries/GetEmployeeDetail/" />
+    <Folder Include="Staff/Queries/GetEmployeeWithPagination/" />
     <Folder Include="Tenat/Queries/" />
+    <Folder Include="Tenat/Queries/GetTenantDetail/" />
+    <Folder Include="Tenat/Queries/GetTenantWithPagination/" />
     <Folder Include="Users/Queries/" />
+    <Folder Include="Users/Queries/GetUsersDetail/" />
+    <Folder Include="Users/Queries/GetUserWithPagination/" />
   </ItemGroup>
 
   <PropertyGroup>

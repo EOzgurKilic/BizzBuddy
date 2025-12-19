@@ -1,7 +1,10 @@
 using BizBuddy.Application.Common;
+using BizBuddy.Application.Common.Models;
 using BizBuddy.Application.Tenat.Commands.CreateTenat;
 using BizBuddy.Application.Tenat.Commands.DeleteTenant;
 using BizBuddy.Application.Tenat.Commands.UpdateTenant;
+using BizBuddy.Application.Tenat.Queries.GetTenantDetail;
+using BizBuddy.Application.Tenat.Queries.GetTenantWithPagination;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,7 +23,7 @@ namespace BizBuddy.Api.Controllers.Tenats
         {
             return await Mediator.Send(new DeleteTenantCommand(id));
         }
-              [HttpPut("UpdateTenant{id}")]
+        [HttpPut("UpdateTenant{id}")]
         public async Task<ActionResult<Result>> TenantUpdate(long id, UpdateTenantCommand command)
         {
             if (id != command.Id)
@@ -29,6 +32,16 @@ namespace BizBuddy.Api.Controllers.Tenats
             }
 
             return await Mediator.Send(command);
+        }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Result<TenantDto>>> GetTenant(int id)
+        {
+            return await Mediator.Send(new GetTenantDetailQuery(id));
+        }
+        [HttpGet]
+        public async Task<ActionResult<Result<PaginatedList<TenantListDto>>>> GetTenantWithPagination([FromQuery] GetTenantWithPaginationQuery query)
+        {
+            return await Mediator.Send(query);
         }
     }
 }

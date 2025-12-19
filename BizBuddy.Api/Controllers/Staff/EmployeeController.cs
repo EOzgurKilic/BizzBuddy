@@ -1,7 +1,10 @@
 using BizBuddy.Application.Common;
+using BizBuddy.Application.Common.Models;
 using BizBuddy.Application.Staff.Commands;
 using BizBuddy.Application.Staff.Commands.DeleteEmployee;
 using BizBuddy.Application.Staff.Commands.UpdateEmployee;
+using BizBuddy.Application.Staff.Queries.GetEmployeeDetail;
+using BizBuddy.Application.Staff.Queries.GetEmployeeWithPagination;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -30,6 +33,16 @@ namespace BizBuddy.Api.Controllers.Staff
             }
 
             return await Mediator.Send(command);
+        }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Result<EmployeeDto>>> GetEmployee(int id)
+        {
+            return await Mediator.Send(new GetEmployeeDetailQuery(id));
+        }
+        [HttpGet]
+        public async Task<ActionResult<Result<PaginatedList<EmployeeListDto>>>> GetEmployeeWithPagination([FromQuery] GetEmployeeWithPaginationQuery query)
+        {
+            return await Mediator.Send(query);
         }
     }
 }
