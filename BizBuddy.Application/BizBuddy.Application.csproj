@@ -16,6 +16,8 @@
 
   <ItemGroup>
     <Folder Include="Categories/Queries/" />
+    <Folder Include="Categories/Queries/GetCategoriesDetail/" />
+    <Folder Include="Categories/Queries/GetCategoriesWithPagination/" />
     <Folder Include="Customers/Queries/GetCustomerDetail/" />
     <Folder Include="Customers/Queries/GetCustomersWithPagination/" />
     <Folder Include="CustomFieldDefs/Queries/" />
